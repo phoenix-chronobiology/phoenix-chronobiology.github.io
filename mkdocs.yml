@@ -1,0 +1,78 @@
+# PROJECT INFORMATION
+site_name: !ENV [SITE_NAME, 'Phoenix Biorhythm Platform']
+
+repo_url: https://github.com/cadams4341/phoenix-biorhythm-platform
+
+edit_uri: null
+
+copyright: <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://cadams4341.github.io/phoenix-biorhythm-platform">Phoenix Biorhythm Platform</a> by <span property="cc:attributionName">Christopher Adams</span> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a></p> 
+
+# DOCUMENTATION LAYOUT
+nav:
+  - Home: index.md
+  - About the Site: about.md
+
+# BUILD DIRECTORIES
+theme:
+  name: material
+  custom_dir: mkdocs-overrides
+  locale: en
+  font:
+    text: Cabin
+    code: Ubuntu Mono
+  favicon: images/circadian-rhythms-32x32.png
+  logo: images/circadian-rhythms-white.svg
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      primary: blue grey
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue grey
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+# FORMATTING OPTIONS
+markdown_extensions:  # see https://squidfunk.github.io/mkdocs-material/setup/extensions/
+  - admonition
+  - attr_list
+  - footnotes
+  - md_in_html
+  - meta
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.caret
+  - pymdownx.arithmatex
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tilde
+
+plugins:
+  - macros
+  - privacy:
+      enabled: !ENV [CI, false]   # needs to be enabled at some point
+  - search
+
+extra_css:
+  - stylesheets/hero-image.css
