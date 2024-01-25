@@ -15,7 +15,7 @@ nav:
 # BUILD DIRECTORIES
 theme:
   name: material
-  custom_dir: mkdocs-overrides
+  custom_dir: overrides
   locale: en
   font:
     text: Cabin
