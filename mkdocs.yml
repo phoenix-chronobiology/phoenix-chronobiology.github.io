@@ -1,5 +1,6 @@
 # PROJECT INFORMATION
 site_name: !ENV [SITE_NAME, 'Phoenix Biorhythm Platform']
+site_author: Christopher Adams
 
 repo_url: https://github.com/cadams4341/phoenix-biorhythm-platform
 
