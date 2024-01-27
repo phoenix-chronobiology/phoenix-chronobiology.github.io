@@ -1,0 +1,60 @@
+.hero-block {
+    text-align: center;
+}
+
+.hero-block .hero-monitor {
+    max-width: 300px;
+    max-height: 350px;
+    margin: 0 auto;
+}
+.hero-block .ekg-underlay {
+    padding: 0 auto;
+    z-index: 50;
+}
+
+.hero-block .hero-tagline {
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.hero-block svg {
+    max-height: 90px; /* to fill magnifying glass as much as possible */
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -200px; /* half the height of the ekg/svg, plus half the height of the ekg-underlay */
+    transition: all 0.5s ease-in-out;
+    z-index: 100;
+}
+
+.hero-block svg .ekg {
+    fill: none;
+    stroke: #00cc00; /* strong lime green */
+    stroke-width: 8;
+    stroke-linecap: round;
+    stroke-linejoin: miter;
+    opacity: 0;
+    stroke-dashoffset: 1000;
+    stroke-dasharray: 1000;
+    animation: ekg 1.5s linear forwards infinite; /* 40 bpm - low end of normal sleeping heart rate */
+}
+
+@keyframes ekg {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 1;
+    }
+    50% {
+        stroke-dashoffset: 2000;
+    }
+    99% {
+        opacity: 0;
+        stroke-dashoffset: 3000;
+    }
+    100% {
+        stroke-dashoffset: 1000;
+    }
+}
