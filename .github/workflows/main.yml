@@ -1,21 +1,48 @@
-name: build
+name: build-and-publish
 on:
   push:
     branches:
       - main
+
+env:
+  NODE_VERSION: 20.x
+  PYTHON_VERSION: 3.x
+
 jobs:
-  deploy:
+  mkdocs-build-and-deploy:
     runs-on: macos-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js runtime
+        uses: actions/setup-node@v4
         with:
-          node-version: 20.x
-      - run: npm clean-install
-      - uses: actions/setup-python@v2
+          node-version: ${{ env.NODE_VERSION }}
+          
+      - name: Set up Node.js dependencies
+        run: npm clean-install
+
+      - name: Set up Python runtime
+        uses: actions/setup-python@v5
         with:
-          python-version: 3.x
-      - run: pip install mkdocs
-      - run: pip install mkdocs-material
-      - run: pip install mkdocs-macros-plugin
-      - run: mkdocs gh-deploy --force --clean --verbose
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install Python dependencies
+        run: |
+          pip install mkdocs
+          pip install mkdocs-material
+          pip install mkdocs-macros-plugin
+
+      - name: Build documentation
+        run: |
+          mkdocs build --clean
+          mkdocs --version
+
+          - name: Upload to GitHub Pages
+          uses: actions/upload-pages-artifact@v3
+          with:
+            path: site
+  
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
