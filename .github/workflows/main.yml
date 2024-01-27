@@ -8,6 +8,11 @@ env:
   NODE_VERSION: 20.x
   PYTHON_VERSION: 3.x
 
+permissions:
+  contents: write
+  id-token: write
+  pages: write
+  
 jobs:
   mkdocs-build-and-deploy:
     runs-on: macos-latest
