@@ -10,9 +10,9 @@ The Phoenix Biorhythm site is hosted on GitHub Pages.
 
 Material for MkDocs directly integrates with [Google Fonts](https://fonts.google.com/){: target="_blank" }. All fonts are taken from that collection.
 
-Body text and titles are set in ![Cabin](images/cabin.jpg){: alt="cabin" style="vertical-align: middle; height: 40px;" }, a nonserif font. 
+Body text and titles are set in ![Cabin](images/cabin.jpg){: alt="cabin" style="vertical-align: bottom; height: 32px;" }, a nonserif font. 
 
-Code samples are set in ![Ubuntu Mono](images/ubuntu-mono.jpg){: alt="Ubuntu Mono" style="vertical-align: middle; height: 40px;" }, a nonserif, monospace font.
+Code samples are set in ![Ubuntu Mono](images/ubuntu-mono.jpg){: alt="Ubuntu Mono" style="vertical-align: bottom; height: 32px;" }, a nonserif, monospace font.
 
 For clients who do not have these fonts, the style sheets specify some standard alternatives.
 
@@ -20,65 +20,20 @@ See also "[Privacy](#privacy)".
 
 ## Palette
 
-Starting with the idea of a dark blue for the primary color and a brown for the secondary, the following sites were used to build the palette:
+The site provides both light and dark color schemes:
 
-* [ColorHexa.com](https://www.colorhexa.com){: target="_blank" }
-* [colordesigner.io](https://colordesigner.io){: target="_blank" }
+| Mode | Color Scheme |
+| ---- | ------------ |
+| Light | MkDocs default |
+| Dark | MkDocs slate |
 
-The result is a [tetradic color scheme](https://en.wikipedia.org/wiki/Color_scheme#Tetradic){: target="_blank" }, composed of [web safe colors](https://en.wikipedia.org/wiki/Web_colors#Web-safe_colors){: target="_blank" }.
+The primary color is set to <span style="color:#546d78; background-color: LightCyan; font-weight: bold;">blue-grey</span>.
 
-<p style="color: White; background-color:#003366; padding: 25px; width: 300px;">
-<strong>
-    Dark Midnight Blue
-    <br>
-</strong>
-Hex #003366
-<br>
-RGB 0, 51, 102
-<br>
-CMYK 100, 50, 0, 60
-</p>
-
-<p style="color: White; background-color:#663300; padding: 25px; width: 300px;">
-<strong>
-    very dark orange [brown tone]
-    <br>
-</strong>
-Hex #663300
-<br>
-RGB 102, 51, 0
-<br>
-CMYK 0, 50, 100, 60
-</p>
-
-<p style="color: White; background-color:#006633; padding: 25px; width: 300px;">
-<strong>
-    very dark cyan - lime green
-    <br>
-</strong>
-Hex #006633
-<br>
-RGB 0, 102, 51
-<br>
-CMYK 100, 0, 50, 60
-</p>
-
-<p style="color: White; background-color:#660033; padding: 25px; width: 300px;">
-<strong>
-    very dark pink
-    <br>
-</strong>
-Hex #660033
-<br>
-RGB 102, 0, 51
-<br>
-CMYK 0, 100, 50, 60
-</p>
+The accent color is set to <span style="color:#4051b5; background-color: LightCyan; font-weight: bold;">indigo</span>.
 
 ## Graphics
 
-![Phoenix Logo](images/phoenix-logo.jpg){: #phoenix-logo style="width: 68; height:80;" }
-
+![Phoenix Logo](images/phoenix-logo.png){: #phoenix-logo style="display:run-in; width:68px; height:80px;"}
 The Phoenix Project logo symbolizes the investigation of variation
 in blood pressure. It is a composite of three images:
 
@@ -88,14 +43,15 @@ in blood pressure. It is a composite of three images:
 
 The tracings are drawn along two different timescales
 
-The heart-image is Microsoft clip-art.
+The heart-image was taken from Microsoft's Clip Art, a now-retired service.
 The abstract tracings were drawn, and the entire logo composed,
 by the [Halberg Chronobiology Center](https://halbergchronobiologycenter.umn.edu){: target="_blank" }.
 
-<img alt="Colophon" src="../images/colophon-2.png" width="80" height="80">
-{: #colophon-icon }
+![Colophon](images/colophon-2.png){: #colophon-icon style="width:80px; height:80px; padding="100px"}
+The Colophon icon is a colorized version of "Wax Seal Ampersand" by Rebecca Sicilia from [Noun Project](https://thenounproject.com/browse/icons/term/wax-seal-ampersand/){: target="_blank" title="Wax Seal Ampersand Icons"} (CC BY 3.0).
 
-The Colophon icon is a colorized version of Wax Seal Ampersand by Rebecca Sicilia from <a href="https://thenounproject.com/browse/icons/term/wax-seal-ampersand/" target="_blank" title="Wax Seal Ampersand Icons">Noun Project</a> (CC BY 3.0).
+![favicon](images/circadian-rhythms.png){: #favicon style="width:88px; height:80px;"}
+The favicon is "circadian rhythms" by bsd studio from [Noun Project](https://thenounproject.com/browse/icons/term/circadian-rhythms/){: target="_blank" title="Circadian Rhythms"} (CC BY 3.0).
 
 ## Privacy
 
@@ -111,8 +67,10 @@ The site uses the [privacy plugin built into Material for MkDocs](https://squidf
 !!! bug "DRAFT ONLY"
     License selection not finalized. The options being considered are:
 
-    * CCO 1.0
-    * CC BY 4.0
+    * <a property="dct:title" rel="cc:attributionURL" href="https://cadams4341.github.io/phoenix-biorhythm-platform/">Phoenix Biorhythm Platform</a> by <span property="cc:attributionName">Christopher Adams</span> is marked with <a href="http://creativecommons.org/publicdomain/zero/1.0?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC0 1.0 Universal<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/zero.svg?ref=chooser-v1"></a>
+    * <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0 (Attribution 4.0 International)<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a>
+
+    The latter is kept as a placeholder because it is the more restrictive of the two.
 
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://cadam4341.github.io/phoenix-biorhythm-platform">Phoenix Biorhythm Platform</a> by <span property="cc:attributionName">Christopher Adams</span> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a></p>
 
