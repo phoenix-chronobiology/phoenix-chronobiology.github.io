@@ -1,29 +1,30 @@
 .hero-block {
+    display: block;
     text-align: center;
 }
 
 .hero-block .hero-monitor {
-    max-width: 300px;
-    max-height: 350px;
+    max-width: 285px;
+    max-height: 400px;
     margin: 0 auto;
 }
 .hero-block .ekg-underlay {
+    display: block:
     padding: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
     z-index: 50;
 }
 
-.hero-block .hero-tagline {
-    text-align: center;
-    font-weight: bold;
-    font-size: larger;
-}
-
 .hero-block svg {
+    padding: 0;
     max-height: 90px; /* to fill magnifying glass as much as possible */
     margin: 0;
-    padding: 0;
     position: relative;
-    top: -200px; /* half the height of the ekg/svg, plus half the height of the ekg-underlay */
+    top: -220px;
+    left: -10px;
     transition: all 0.5s ease-in-out;
     z-index: 100;
 }
@@ -57,4 +58,10 @@
     100% {
         stroke-dashoffset: 1000;
     }
+}
+
+.hero-block .hero-tagline {
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
 }

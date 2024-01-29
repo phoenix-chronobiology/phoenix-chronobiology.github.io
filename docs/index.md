@@ -1,6 +1,6 @@
 <div class="hero-block">
   <div class="hero-monitor">
-      <img class="ekg-underlay" alt="phoenix-heart" src="images/phoenix-logo-wo-ekg.png" />
+      <img class="ekg-underlay" alt="human-heart-cutaway-w-mag" src="images/human-heart-cutaway-w-mag.png" />
       <svg class="ekg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
           viewBox="0 0 500 200" xml:space="preserve">
         <g>
