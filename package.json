@@ -10,5 +10,8 @@
     "test": "echo \"Warning: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "katex": "^0.16.9"
+  }
 }

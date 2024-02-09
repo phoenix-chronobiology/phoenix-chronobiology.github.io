@@ -11,12 +11,21 @@ copyright: <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.o
 # DOCUMENTATION LAYOUT
 nav:
   - Home: index.md
-  - About the Site: about.md
+  - About the Site: about/index.md
+  - Background:
+    - Vision: background/larry-abstract.md
+    - Glossary: background/glossaries.md
+
+not_in_nav: |
+  about/macros-info.md
+  background/glossary.md
+  background/glossary-std.md
+  snippets/chronobiology-glossary.md
+  snippets/swe-glossary.md
 
 # BUILD DIRECTORIES
 theme:
   name: material
-  custom_dir: overrides
   locale: en
   font:
     text: Cabin
@@ -47,33 +56,64 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.top
+    - toc.follow
 
 # FORMATTING OPTIONS
 markdown_extensions:  # see https://squidfunk.github.io/mkdocs-material/setup/extensions/
-  - admonition
-  - attr_list
-  - footnotes
-  - md_in_html
-  - meta
-  - tables
-  - toc:
+  - markdown.extensions.admonition
+  - markdown.extensions.attr_list
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.md_in_html
+  - markdown.extensions.meta
+  - markdown.extensions.tables
+  - markdown.extensions.toc:
       permalink: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+      toc_depth: 3
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.blocks.tab:
+      alternate_style: true
+      combine_header_slug: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+
   - pymdownx.caret
-  - pymdownx.arithmatex
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.highlight
   - pymdownx.mark
   - pymdownx.smartsymbols
+  - pymdownx.snippets
   - pymdownx.superfences
   - pymdownx.tilde
 
 plugins:
+  - git-revision-date-localized:
+      type: custom
+      custom_format: "%Y-%m-%d %H:%M:%S%z (%Z)"
+      locale: en
+      timezone: US/Central
   - macros
   - privacy:
       enabled: !ENV [CI, false]   # needs to be enabled at some point
   - search
 
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  
 extra_css:
   - stylesheets/hero-image.css
+  - stylesheets/typeset.css
+
