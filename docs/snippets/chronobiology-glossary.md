@@ -234,24 +234,26 @@ Jump to:
 <span id="cosinor-analysis">cosinor analysis</span>
 : [statistics]
 : Least squares approximation of a time series using a cosine function of known period
-: The following function is approximated to experimental [cardiovascular] data:
-: \(C(t) = Mesor + A\cdot\cos\left(\frac{2\pi(t-Acrophrase)}{P}\right)\)
-: \(
-    \text{Where:  } \\
-    \begin{align}
-    Mesor &= \text{the mean of the oscillation} \\
-    A &= \text{amplitude} \\
-    Acrophase &= \text{timing of the cosine maximum} \\
-    P &= \text{prefixed period} \\
-    \end{align}
-    \text{  In the analysis of circadian rhythms, P=24 hours.}
+: The following equation is a single-component model of circadian rhythms and is typical of cosinor analysis.
+
+    \(Y(t) = M + A\cdot\left(\frac{2\pi\mathnormal{t}}{\tau} + \phi\right) + e(t)\)
+
+    Where:
+
+    \(
+        \begin{align}
+        M &= \text{the MESOR (Midline Statistic Of Rhythm, a rhythm-adjusted mean)} \newline
+        A &= \text{the amplitude (a measure of half the extent of predictable variation within a cycle)} \newline
+        \phi &= \text{the acrophase (a measure of the time of overall high values recurring in each cycle)} \newline
+        \tau &= \text{the period (duration of one cycle)} \newline
+        e(t) &= \text{the error term}
+        \end{align}
     \)
 
-: (source: [www.cbi.dongnocchi.it [Glossary of Terms Used in Time Series Analysis of Cardiovascular Data]](http://www.cbi.dongnocchi.it/glossary/Glossary.html){: target="_blank" } [site inactive])
-:   !!! bug
-        This equation is obsolete. See the following article for an accurate definition.
-        
-        Cornelissen G. Cosinor-based rhythmometry. Theor Biol Med Model. 2014 Apr 11;11:16. doi: 10.1186/1742-4682-11-16. PMID: 24725531; PMCID: PMC3991883. [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3991883/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3991883/){: target="_blank" }.
+    ![rhythm-characteristics](../images/rhythm-characteristics.png){: style="width: 60%;" }
+
+: (source:         
+        Cornelissen G. Cosinor-based rhythmometry. Theor Biol Med Model. 2014 Apr 11;11:16. doi: 10.1186/1742-4682-11-16. PMID: 24725531; PMCID: PMC3991883. [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3991883/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3991883/){: target="_blank" }.)
 
 
 ### D
