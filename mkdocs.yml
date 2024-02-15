@@ -11,16 +11,15 @@ copyright: <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.o
 # DOCUMENTATION LAYOUT
 nav:
   - Home: index.md
+  - Vision: vision/abstract.md
+  - Glossary: glossary/index.md
   - About the Site: about/index.md
-  - Background:
-    - Vision: background/larry-abstract.md
-    - Glossary: background/glossaries.md
 
 not_in_nav: |
   about/macros-info.md
-  background/glossary.md
-  background/glossary-std.md
   snippets/chronobiology-glossary.md
+  snippets/hero-image.md
+  snippets/hide-title.md
   snippets/swe-glossary.md
 
 # BUILD DIRECTORIES

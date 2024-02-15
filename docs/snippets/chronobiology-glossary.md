@@ -236,7 +236,7 @@ Jump to:
 : The following equation is a single-component model of circadian rhythms and is typical of cosinor analysis.
     !!! quote "Excerpt from _Cosinor-based rhythmometry_"
 
-        \(Y(t) = M + A\cdot\left(\frac{2\pi\mathnormal{t}}{\tau} + \phi\right) + e(t)\)
+        \(Y(t) = M + A\cdot\left(\frac{2\pi\mathnormal{t}}{\tau} + \phi\right) + \varepsilon(t)\)
 
         Where:
 
@@ -246,7 +246,7 @@ Jump to:
             A &= \text{the amplitude (a measure of half the extent of predictable variation within a cycle)} \newline
             \phi &= \text{the acrophase (a measure of the time of overall high values recurring in each cycle)} \newline
             \tau &= \text{the period (duration of one cycle)} \newline
-            e(t) &= \text{the error term}
+            \varepsilon(t) &= \text{the error term}
             \end{align}
         \)
 

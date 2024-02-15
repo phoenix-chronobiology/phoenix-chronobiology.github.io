@@ -1,30 +1,23 @@
+--8<-- "docs/snippets/hide-title.md"
 
-<div class="hero-block">
-  <div class="hero-monitor">
-      <img class="ekg-underlay" alt="human-heart-cutaway-w-mag" src="images/human-heart-cutaway-w-mag.png" />
-      <svg class="ekg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-          viewBox="0 0 500 200" xml:space="preserve">
-        <g>
-            <polyline class="ekg" points="366.6,113.8 328.2,113.8 310.3,132.3 296,70.7 246.8,127.4 241.6,120.2 233.9,166.4
-                227,27.6 213.2,118.3 211.8,112.3 205.1,126.1 198.2,108.5 194.1,124.4 184.5,92.9 174.1,113 144.3,113"/>
-        </g>
-      </svg>
-  </div>
-  <p class="hero-tagline">
-    A platform for chronobiometric analysis
-  </p>
-</div>
-#
-## Introduction
+--8<-- "docs/snippets/hero-image.md"
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquet lorem urna, non viverra justo luctus nec. Fusce nibh purus, auctor ut ex eget, cursus vehicula sem. Nunc pretium condimentum nisi, blandit feugiat tortor hendrerit eget. Vestibulum in ullamcorper magna. Ut posuere nibh congue purus ultrices finibus laoreet non lacus. Proin eu dignissim lorem. Donec sit amet feugiat neque. Aliquam at laoreet erat.
+## What
 
-```
-Hello, World
-```
+The vision of the [Halberg Chronobiology Center](https://halbergchronobiologycenter.umn.edu){: target="_blank" }, at the University of Minnesota, is to:
 
-### Level 3 
+* To use chronobiologic principles (timing according to rhythms) for assessing cardiovascular health, detect pre-disease early, and optimize treatment administration schedules, in order to reduce the number of people who die of preventable heart attacks and strokes.
+* To understand how blood pressure and heart rate vary in response to stimuli in everyday life for health surveillance and maintenance.
 
-#### Level 4
+The Center's scope is global.
 
-##### Level 5
+To that end, the **IEEE Phoenix Project** serves the vision with two goals:
+
+* Design and build an inexpensive, wearable, unobtrusive, and easy-to-use ambulatory blood pressure monitor.
+* Design and build the **Phoenix Biorhythm Platform**, a Web-based platform for the analysis of chronobiological data, and the focus of this site.
+
+See the [Center's vision](vision/abstract.md) of the platform.
+
+## Who
+
+The Phoenix Project operates as a study group of the [Twin Cities Section of the Institute of Electrical and Electronics Engineers, IEEE](https://tc-ieee.org){: target="_blank" }. Though the Twin Cities Section is source for the project's core engineers, the project welcomes students, engineers and scientists regardless of IEEE membership.
