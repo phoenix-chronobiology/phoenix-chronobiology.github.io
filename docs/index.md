@@ -2,22 +2,33 @@
 
 --8<-- "docs/snippets/hero-image.md"
 
-## What
+## Vision
 
-The vision of the [Halberg Chronobiology Center](https://halbergchronobiologycenter.umn.edu){: target="_blank" }, at the University of Minnesota, is to:
+The Phoenix Project shares the vision of the University of Minnesota's [Halberg Chronobiology Center](https://halbergchronobiologycenter.umn.edu){: target="_blank" }.
 
-* To use chronobiologic principles (timing according to rhythms) for assessing cardiovascular health, detect pre-disease early, and optimize treatment administration schedules, in order to reduce the number of people who die of preventable heart attacks and strokes.
-* To understand how blood pressure and heart rate vary in response to stimuli in everyday life for health surveillance and maintenance.
+1. Use chronobiologic principles (timing according to rhythms) for assessing cardiovascular health, detect pre-disease early, and optimize treatment administration schedules, in order to reduce the number of people who die of preventable heart attacks and strokes.
+2. Understand how blood pressure and heart rate vary in response to stimuli in everyday life for health surveillance and maintenance.
 
-The Center's scope is global.
+## Mission of the Phoenix Project
 
-To that end, the **IEEE Phoenix Project** serves the vision with two goals:
+1.  Develop an ambulatory blood pressure monitor
 
-* Design and build an inexpensive, wearable, unobtrusive, and easy-to-use ambulatory blood pressure monitor.
-* Design and build the **Phoenix Biorhythm Platform**, a Web-based platform for the analysis of chronobiological data, and the focus of this site.
+    * Inexpensive
+    * Unobtrusive
+    * Easy to use
+    * Collects a week of blood pressure measurements
 
-See the [Center's vision](vision/abstract.md) of the platform.
+2. **Develop a means for chronobiological analysis of the collected blood pressure measurements**
 
-## Who
+3. Be a learning community
 
-The Phoenix Project operates as a study group of the [Twin Cities Section of the Institute of Electrical and Electronics Engineers, IEEE](https://tc-ieee.org){: target="_blank" }. Though the Twin Cities Section is source for the project's core engineers, the project welcomes students, engineers and scientists regardless of IEEE membership.
+4. Deliver the monitor and analytic framework to the Halberg Chronobiology Center, for long term use on massive scale to:
+
+    * Obtain measures of health
+    * Encourage the development of techniques for Diagnosis, Prevention and Treatment
+
+**This website focuses on #2.**
+
+## The Phoenix Learning Community
+
+The **Phoenix Project** operates as a study group of the [Twin Cities Section of the Institute of Electrical and Electronics Engineers, IEEE](https://tc-ieee.org){: target="_blank" }. Though the Twin Cities Section is source for the project's core engineers, the project welcomes students, engineers and scientists regardless of IEEE membership.
