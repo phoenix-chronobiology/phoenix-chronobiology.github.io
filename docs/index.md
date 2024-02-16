@@ -1,4 +1,3 @@
---8<-- "docs/snippets/hide-title.md"
 
 --8<-- "docs/snippets/hero-image.md"
 
