@@ -32,3 +32,5 @@ The Phoenix Project shares the vision of the University of Minnesota's [Halberg 
 ## The Phoenix Learning Community
 
 The **Phoenix Project** operates as a study group of the [Twin Cities Section of the Institute of Electrical and Electronics Engineers, IEEE](https://tc-ieee.org){: target="_blank" }. Though the Twin Cities Section is source for the project's core engineers, the project welcomes students, engineers and scientists regardless of IEEE membership.
+
+The project operates on [open source principles](https://opensource.org/osd/){: target="_blank" }, so that it can learn from others and other can learn from it.
