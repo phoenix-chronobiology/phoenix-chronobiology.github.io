@@ -1,0 +1,54 @@
+<svg class="ekg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  xlink:href="data:image/png;base64" viewBox="0 0 558 800" xml:space="preserve">
+    <!--
+        Cutaway depiction of human heart overlayed with an EKG seen through a magnifying glass.
+        The viewbox is set to the actual size of the image.
+
+        The EKG is depicted with a polyline having a "Strong Light Green" stroke.
+        The EKG is animated to emulate 40 beats per minute, the low end of normal sleeping heart rate.
+    -->
+    <style>
+      polyline.ekg {
+        fill: transparent;
+        stroke: #00cc00; /* strong lime green */
+        stroke-width: 4;
+        stroke-linecap: round;
+        stroke-linejoin: miter;
+        opacity: 0;
+        stroke-dashoffset: 1000;
+        stroke-dasharray: 1000;
+        animation: ekg 1.5s linear forwards infinite; /* 40 bpm - low end of normal sleeping heart rate */
+      }
+
+      @keyframes ekg {
+          0% {
+              opacity: 0;
+          }
+          25% {
+              opacity: 1;
+          }
+          50% {
+              stroke-dashoffset: 2000;
+          }
+          99% {
+              opacity: 0;
+              stroke-dashoffset: 3000;
+          }
+          100% {
+              stroke-dashoffset: 1000;
+          }
+      }
+    </style>
+    <image href="human-heart-cutaway-w-mag.png" width="558" height="800" x="0" y="0" preserveAspectRatio="xMinYMin slice" />
+    <polyline class="ekg"
+      points= " 372.6,473.8
+                328.2,473.8 310.3,492.3
+                296,430.7   246.8,487.4
+                241.6,480.2 233.9,526.4
+                227,387.6   213.2,478.3
+                211.8,372.3 205.1,486.1
+                198.2,468.5 194.1,484.4
+                184.5,452.9 174.1,473
+                142.3,473   ">
+    </polyline>
+</svg>

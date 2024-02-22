@@ -30,7 +30,7 @@ theme:
     text: Cabin
     code: Ubuntu Mono
   favicon: images/circadian-rhythms-32x32.png
-  logo: images/circadian-rhythms-white.svg
+  logo: images/hero-heart-white.png
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
