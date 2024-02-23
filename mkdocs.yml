@@ -1,5 +1,5 @@
 # PROJECT INFORMATION
-site_name: !ENV [SITE_NAME, 'Phoenix Biorhythm Platform']
+site_name: !ENV [SITE_NAME, 'The Phoenix Chronobiology Projects']
 site_author: Christopher Adams
 
 repo_url: https://github.com/cadams4341/phoenix-biorhythm-platform
@@ -30,7 +30,7 @@ theme:
     text: Cabin
     code: Ubuntu Mono
   favicon: images/circadian-rhythms-32x32.png
-  logo: images/hero-heart-white.png
+  logo: images/phoenix-mark-white.png
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"

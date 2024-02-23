@@ -4,12 +4,16 @@
 
 ## Vision
 
-The Phoenix Project shares the vision of the University of Minnesota's [Halberg Chronobiology Center](https://halbergchronobiologycenter.umn.edu){: target="_blank" }.
+**{{ config.site_name }}** envision:
 
-1. Use chronobiologic principles (timing according to rhythms) for assessing cardiovascular health, detect pre-disease early, and optimize treatment administration schedules, in order to reduce the number of people who die of preventable heart attacks and strokes.
-2. Understand how blood pressure and heart rate vary in response to stimuli in everyday life for health surveillance and maintenance.
+1. The use chronobiologic principles (timing according to rhythms) for assessing cardiovascular health, detect pre-disease early, and optimize treatment administration schedules, in order to reduce the number of people who die of preventable heart attacks and strokes.
+2. Understanding how blood pressure and heart rate vary in response to stimuli in everyday life for health surveillance and maintenance.
 
-## Mission of the Phoenix Project
+To these ends, The Projects are a collaboration with the University of Minnesota's [Halberg Chronobiology Center](https://halbergchronobiologycenter.umn.edu){: target="_blank" }.
+
+## Mission
+
+**{{ config.site_name }}** will: 
 
 1.  Develop an ambulatory blood pressure monitor
 
@@ -31,6 +35,6 @@ The Phoenix Project shares the vision of the University of Minnesota's [Halberg 
 
 ## The Phoenix Learning Community
 
-The **Phoenix Project** operates as a study group of the [Twin Cities Section of the Institute of Electrical and Electronics Engineers, IEEE](https://tc-ieee.org){: target="_blank" }. Though the Twin Cities Section is source for the project's core engineers, the project welcomes students, engineers and scientists regardless of IEEE membership.
+The **Phoenix Projects** operate as a study group of the [Twin Cities Section of the Institute of Electrical and Electronics Engineers, IEEE](https://tc-ieee.org){: target="_blank" }. Though the Twin Cities Section is source for the projects' core engineers, the projects welcome students, engineers and scientists regardless of IEEE membership.
 
-The project operates on [open source principles](https://opensource.org/osd/){: target="_blank" }, so that it can learn from others and other can learn from it.
+The Projects operate on [open source principles](https://opensource.org/osd/){: target="_blank" }, so that it can learn from others and other can learn from it.

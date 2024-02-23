@@ -2,7 +2,7 @@
 
 ## Host
 
-The Phoenix Project operates as a study group of the [Twin Cities Section of the Institute of Electrical and Electronics Engineers](http://www.tc-ieee.org){: target="_blank" }.
+The Phoenix Projects operate as a study group of the [Twin Cities Section of the Institute of Electrical and Electronics Engineers](http://www.tc-ieee.org){: target="_blank" }.
 
 The Phoenix Biorhythm site is hosted on GitHub Pages.
 
@@ -65,7 +65,7 @@ The accent color is set to <span style="color:#4051b5; background-color: LightCy
 
 ## Graphics
 
-![Phoenix Logo](../images/phoenix-logo.png){: #phoenix-logo style="display:run-in; width:68px; height:80px;"}
+![Phoenix Logo](../images/phoenix-mark-w-waves.png){: #phoenix-logo style="display:run-in; height:80px;"}
 The Phoenix Project logo symbolizes the investigation of variation
 in blood pressure. It is a composite of three images:
 
@@ -73,11 +73,7 @@ in blood pressure. It is a composite of three images:
 - An abstract electrocardiogram (ECG) tracing in red, and
 - An abstract week-long systolic blood pressure cycle in blue.
 
-The tracings are drawn along two different timescales
-
-The heart-image was taken from Microsoft's Clip Art, a now-retired service.
-The abstract tracings were drawn, and the entire logo composed,
-by the [Halberg Chronobiology Center](https://halbergchronobiologycenter.umn.edu){: target="_blank" }.
+The tracings are drawn along two different timescales.
 
 ![Colophon](../images/colophon-2.png){: #colophon-icon style="width:80px; height:80px; padding="100px"}
 The Colophon icon is a colorized version of "Wax Seal Ampersand" by Rebecca Sicilia from [Noun Project](https://thenounproject.com/browse/icons/term/wax-seal-ampersand/){: target="_blank" title="Wax Seal Ampersand Icons"} (CC BY 3.0).
