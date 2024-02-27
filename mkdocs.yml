@@ -10,13 +10,16 @@ copyright: <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.o
 
 # DOCUMENTATION LAYOUT
 nav:
-  - Home: index.md
-  - Vision: vision/abstract.md
+  - The Phoenix Chronobiology Projects: index.md
+  - Requirements: requirements/index.md
+  - Architecture: architecture/index.md
+  - Halberg's Vision: vision/index.md
   - Glossary: glossary/index.md
-  - About the Site: about/index.md
+  - About the Site: 
+      - about/index.md
+      - Macros Info: about/macros-info.md
 
 not_in_nav: |
-  about/macros-info.md
   snippets/chronobiology-glossary.md
   snippets/hero-image.md
   snippets/hide-title.md
@@ -30,7 +33,7 @@ theme:
     text: Cabin
     code: Ubuntu Mono
   favicon: images/circadian-rhythms-32x32.png
-  logo: images/phoenix-mark-white.png
+  logo: images/magnifier-glass-light.png
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
@@ -56,8 +59,11 @@ theme:
         icon: material/brightness-4
         name: Switch to system preference
   features:
+    - navigation.indexes
     - navigation.instant
     - navigation.instant.progress
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.top
     - toc.follow
 

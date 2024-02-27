@@ -1,4 +1,4 @@
-# ![Colophon](../images/colophon-2.png){: style="width: 80px; height:80px; vertical-align: middle;" } {{ page.title }}
+# ![Colophon](../images/colophon-2.png){: style="width: 80px; height:80px; vertical-align: middle;" } About the Site
 
 ## Host
 
