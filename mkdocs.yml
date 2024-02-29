@@ -15,7 +15,7 @@ nav:
   - Architecture: architecture/index.md
   - Halberg's Vision: vision/index.md
   - Glossary: glossary/index.md
-  - About the Site: 
+  - About the Site:
       - about/index.md
       - Macros Info: about/macros-info.md
 
@@ -33,7 +33,7 @@ theme:
     text: Cabin
     code: Ubuntu Mono
   favicon: images/circadian-rhythms-32x32.png
-  logo: images/magnifier-glass-light.png
+  logo: images/phoenix-mark-white.png
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"

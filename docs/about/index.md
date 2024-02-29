@@ -1,4 +1,6 @@
-# ![Colophon](../images/colophon-2.png){: style="width: 80px; height:80px; vertical-align: middle;" } About the Site
+---
+title: About the Site
+---
 
 ## Host
 
@@ -24,10 +26,19 @@ For full documentation, visit [mkdocs.org](https://www.mkdocs.org){: target="_bl
 ### Project layout
 
 ```
-mkdocs.yml    # The configuration file.
+mkdocs.yml          # The configuration file.
 docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
+    index.md        # The documentation homepage.
+    about/
+    architecture/
+    glossary/
+    images/
+    javascripts/
+    requirements/
+    snippets/
+    stylesheets/
+    vision/
+    ...             # Other markdown pages, images and other files.
 ```
 
 ### Theme
@@ -59,27 +70,21 @@ The site provides both light and dark color schemes:
 | Light | MkDocs default |
 | Dark | MkDocs slate |
 
-The primary color is set to <span style="color:#546d78; background-color: LightCyan; font-weight: bold;">blue-grey</span>.
+The primary color is set to <span style="color:#546d78; font-weight: bold;">blue-grey (#546d78;)</span>.
 
-The accent color is set to <span style="color:#4051b5; background-color: LightCyan; font-weight: bold;">indigo</span>.
+The accent color is set to <span style="color:#4051b5; font-weight: bold;">indigo (#4051b5)</span>.
 
 ## Graphics
 
-![Phoenix Logo](../images/phoenix-mark-w-waves.png){: #phoenix-logo style="display:run-in; height:80px;"}
-The Phoenix Project logo symbolizes the investigation of variation
-in blood pressure. It is a composite of three images:
-
-- The interior of a human heart and some of the blood vessels,
-- An abstract electrocardiogram (ECG) tracing in red, and
-- An abstract week-long systolic blood pressure cycle in blue.
-
-The tracings are drawn along two different timescales.
-
-![Colophon](../images/colophon-2.png){: #colophon-icon style="width:80px; height:80px; padding="100px"}
-The Colophon icon is a colorized version of "Wax Seal Ampersand" by Rebecca Sicilia from [Noun Project](https://thenounproject.com/browse/icons/term/wax-seal-ampersand/){: target="_blank" title="Wax Seal Ampersand Icons"} (CC BY 3.0).
-
-![favicon](../images/circadian-rhythms.png){: #favicon style="width:88px; height:80px;"}
-The favicon is "circadian rhythms" by bsd studio from [Noun Project](https://thenounproject.com/browse/icons/term/circadian-rhythms/){: target="_blank" title="Circadian Rhythms"} (CC BY 3.0).
+| Image&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Explanation | Source |
+| ------ | ----------- | ------ |
+|![Phoenix Mark](../images/phoenix-mark.png){: style="height:80px;"} | The **Phoenix Project mark** symbolizes the investigation of variation in blood pressure. | The Phoenix is a composite of the following three images. |
+| ![Human Heart Cutaway](../images/coeur_01.png){: style="height:80px;"} | The interior of a human heart and some of the blood vessels | SERVIER MEDICAL ART, a service to medicine provided by Les Laboratoires Servier [www.servier.com](https://www.servier.com/){: target="_blank" }. Image retrieved from [https://smart.servier.com/wp-content/uploads/2016/10/coeur_01.png](https://smart.servier.com/wp-content/uploads/2016/10/coeur_01.png){: target="_blank" }.<br><br>Servier Medical Art is licensed under [CC BY 4.0 ![CC BY](../images/by.svg){: style="height: 20px;" }](https://creativecommons.org/licenses/by/4.0/){: target="_blank" } |
+| ![Magnifying Glass](../images/deelight-Magnifying-Glass.svg){: style="height:80px;"} | Magnifying glass | ["Magnifying Glass", by deelight](https://openclipart.org/detail/2202/magnifying-glass){: target="_blank" }, on [OPENCLIPART.org](https://openclipart.org){: target="_blank" }.<br><br>![Public Domain](../images/publicdomain.svg){: style="height: 20px;" } |
+| ![Pulse Curve BP-ECG Timing](../images/pulse-curve-bp-ecg-timing-static.svg){: style="height:60px;"} | An abstract: <ol><li>electrocardiogram (ECG) tracing in lime green</li><li>An abstract atrial blood pressure cycle in a dark red</li></ol>The tracings are drawn along the same timescale. | Derived from the image titled "Timing of arterial pulse and the ECG", in ["Normal arterial line waveforms", **Deranged Physiology**: A free online resource for Intensive Care Medicine](https://www.derangedphysiology.com/main/sites/default/files/sites/default/files/CICM%20Primary/G%20Cardiovascular%20system/arterial%20line%20timing%20with%20ECG.JPG){: target="_blank" }, by [Alex Yartsev](https://derangedphysiology.com/main/contact){: target="_blank" }.<br><br>The derivation removed all but the waveforms and converted the result to SVG. |
+| | The **Phoenix Logo** incorporates the [Phoenix Mark](#phoenix-mark). | ![Phoenix Logo](../images/phoenix-logo.png){: style="width: 212px; height:80px;"}  |
+| ![Colophon](../images/colophon-2.png){: style="width:80px; height:80px; padding="100px"} | | The **Colophon** icon is a colorized version of "Wax Seal Ampersand" by Rebecca Sicilia from [Noun Project](https://thenounproject.com/browse/icons/term/wax-seal-ampersand/){: target="_blank" title="Wax Seal Ampersand Icons"} (CC BY 3.0). |
+| ![favicon](../images/circadian-rhythms.png){: style="height:80px;"} | | The **favicon** is "circadian rhythms" by bsd studio from [Noun Project](https://thenounproject.com/browse/icons/term/circadian-rhythms/){: target="_blank" title="Circadian Rhythms"} (CC BY 3.0). |
 
 ## Math Notation
 
