@@ -45,3 +45,8 @@ tmp
 # IDEs & Editors
 .idea
 *~
+
+# ------
+# draw.io
+# ------
+*.bkp

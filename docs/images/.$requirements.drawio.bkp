@@ -1,0 +1,83 @@
+<mxfile host="Electron" modified="2024-03-07T23:29:27.913Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="4bxgEg7SyO4LrfH1UYM_" version="23.1.5" type="device">
+  <diagram name="actors-model" id="lQX6S0m0mbwV65kXARLt">
+    <mxGraphModel dx="1532" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IeoDxTHLByBcVTHjGyf1-3" value="Physiologist" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelBackgroundColor=default;fontStyle=1;strokeWidth=2;fontColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="980" y="120" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IeoDxTHLByBcVTHjGyf1-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=0;fontStyle=1;fontColor=#4D4D4D;" edge="1" parent="1" source="IeoDxTHLByBcVTHjGyf1-4" target="IeoDxTHLByBcVTHjGyf1-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IeoDxTHLByBcVTHjGyf1-4" value="Student" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelBackgroundColor=default;fontStyle=1;strokeWidth=2;fontColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="140" y="280" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IeoDxTHLByBcVTHjGyf1-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=0;fontStyle=0;fontColor=#4D4D4D;" edge="1" parent="1" source="IeoDxTHLByBcVTHjGyf1-5" target="IeoDxTHLByBcVTHjGyf1-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IeoDxTHLByBcVTHjGyf1-10" value="(institutional setting)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=0;fontColor=#4D4D4D;" vertex="1" connectable="0" parent="IeoDxTHLByBcVTHjGyf1-8">
+          <mxGeometry x="-0.24" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IeoDxTHLByBcVTHjGyf1-5" value="Patient" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelBackgroundColor=default;fontStyle=1;strokeWidth=2;fontColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="260" y="280" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IeoDxTHLByBcVTHjGyf1-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=0;fontStyle=1;fontColor=#4D4D4D;" edge="1" parent="1" source="IeoDxTHLByBcVTHjGyf1-6" target="IeoDxTHLByBcVTHjGyf1-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IeoDxTHLByBcVTHjGyf1-6" value="Self-Care Subject" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelBackgroundColor=default;fontStyle=1;strokeWidth=2;fontColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="370" y="280" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IeoDxTHLByBcVTHjGyf1-1" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;ABPM Wearer&lt;/span&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=1;strokeWidth=2;fontColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="260" y="120" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IeoDxTHLByBcVTHjGyf1-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=0;fontStyle=1;fontColor=#4D4D4D;" edge="1" parent="1" source="IeoDxTHLByBcVTHjGyf1-11" target="IeoDxTHLByBcVTHjGyf1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IeoDxTHLByBcVTHjGyf1-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=0;fontStyle=0;fontColor=#4D4D4D;" edge="1" parent="1" source="IeoDxTHLByBcVTHjGyf1-12" target="IeoDxTHLByBcVTHjGyf1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IeoDxTHLByBcVTHjGyf1-23" value="(institutional setting)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=0;fontColor=#4D4D4D;" vertex="1" connectable="0" parent="IeoDxTHLByBcVTHjGyf1-18">
+          <mxGeometry x="-0.22" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IeoDxTHLByBcVTHjGyf1-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=0;fontStyle=1;fontColor=#4D4D4D;" edge="1" parent="1" source="IeoDxTHLByBcVTHjGyf1-13" target="IeoDxTHLByBcVTHjGyf1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IeoDxTHLByBcVTHjGyf1-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=0;fontStyle=1;fontColor=#4D4D4D;" edge="1" parent="1" source="IeoDxTHLByBcVTHjGyf1-14" target="IeoDxTHLByBcVTHjGyf1-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IeoDxTHLByBcVTHjGyf1-14" value="Primary Care Physician" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelBackgroundColor=default;fontStyle=1;strokeWidth=2;fontColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="500" y="440" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IeoDxTHLByBcVTHjGyf1-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=0;fontStyle=1;fontColor=#4D4D4D;" edge="1" parent="1" source="IeoDxTHLByBcVTHjGyf1-15" target="IeoDxTHLByBcVTHjGyf1-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IeoDxTHLByBcVTHjGyf1-15" value="Specialist" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelBackgroundColor=default;fontStyle=1;strokeWidth=2;fontColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="620" y="440" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IeoDxTHLByBcVTHjGyf1-16" value="Nurse" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelBackgroundColor=default;fontStyle=1;strokeWidth=2;fontColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="730" y="440" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IeoDxTHLByBcVTHjGyf1-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=0;fontStyle=1;fontColor=#4D4D4D;" edge="1" parent="1" source="IeoDxTHLByBcVTHjGyf1-16" target="IeoDxTHLByBcVTHjGyf1-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IeoDxTHLByBcVTHjGyf1-2" value="ABPM Provider" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelBackgroundColor=default;fontStyle=1;strokeWidth=2;fontColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="620" y="120" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IeoDxTHLByBcVTHjGyf1-11" value="Teacher" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelBackgroundColor=default;fontStyle=1;strokeWidth=2;fontColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="500" y="280" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IeoDxTHLByBcVTHjGyf1-12" value="Clinician" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelBackgroundColor=default;fontStyle=1;strokeWidth=2;fontColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="620" y="280" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IeoDxTHLByBcVTHjGyf1-13" value="Pharmacy" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelBackgroundColor=default;fontStyle=1;strokeWidth=2;fontColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="730" y="280" width="40" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
