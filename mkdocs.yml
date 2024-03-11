@@ -13,6 +13,7 @@ nav:
   - The Phoenix Chronobiology Projects: index.md
   - Requirements:
       - requirements/index.md
+      - Halberg's vision: requirements/halberg-vision.md
   - Architecture:
       - architecture/index.md
   - Privacy &amp; security:
@@ -21,7 +22,6 @@ nav:
       - Security architecture: privacy-security/security-architecture.md
       - Threat assessment: privacy-security/threat-assessment.md
       - Attack surface analysis: privacy-security/attack-surface-analysis.md
-  - Halberg's vision: vision/index.md
   - Glossary: glossary/index.md
   - About the site:
       - about/index.md

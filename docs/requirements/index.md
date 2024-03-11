@@ -29,7 +29,7 @@ title: Requirements
 ## Required attributes
 
 Inexpensive
-: [Free and open source](https://en.wikipedia.org/wiki/Free_and_open-source_software){: target="_blank" }
+: Free and open source software [^foss]
 
 Highly decomposed
 : Each component quickly engineered by very small team (usually one person)
@@ -41,13 +41,31 @@ Extensible &mdash; highly recomposable
 
 Scalable
 : Ready to cope with volume increases due to:
-  - Wearers
-  - Acquired data
-  - Analysis requests
+
+    - Wearers
+    - Acquired data
+    - Analysis requests
 
 Secure
-: &nbsp;
+: The design incorporates:
+
+    * Threat modeling [^threat]
+    * Principle of least privilege [^polp]
+    * Defense in depth &mdash; zero trust [^zero]
+    * Secure defaults
+    * Person identity management
 
 Maintains privacy of data subject
-: &nbsp;
+: 1. Wearer owns measurements of the wearer's body
+  1. Caregivers are custodians
+  1. System operators are custodians
+  1. Control belongs to the user
 
+
+[^foss]: Wikipedia. "Free and open-source software". Website, accessed 8 March 2024. [https://en.wikipedia.org/wiki/Free_and_open-source_software](https://en.wikipedia.org/wiki/Free_and_open-source_software){: target="_blank" }.
+
+[^threat]: Wikipedia. "Threat model". Website, accessed 8 March 2024. [https://en.wikipedia.org/wiki/Threat_model](https://en.wikipedia.org/wiki/Threat_model){: target="_blank" }.
+
+[^polp]: Wikipedia. "Priciple of Least Privelege". Website, accessed 8 March 2024. [https://en.wikipedia.org/wiki/Principle_of_least_privilege](https://en.wikipedia.org/wiki/Principle_of_least_privilege){: target="_blank" }.
+
+[^zero]: Wikipedia. "Zero Trust Security Model". Website, accessed 8 March 2024. [https://en.wikipedia.org/wiki/Zero_trust_security_model](https://en.wikipedia.org/wiki/Zero_trust_security_model){: target="_blank" }.

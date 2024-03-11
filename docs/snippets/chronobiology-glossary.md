@@ -549,6 +549,17 @@ One way to look at this is to say that on the basis of the data, the circadian v
 :   1. The properties and functions of animal and vegetable organs and tissues.
     2. The branch of the biological sciences dealing with the functioning of organisms.					
 
+<span id="predisease">pre-disease</span>
+: [medicine] A condition that is not at a stage or level that would classify it as disease but that indicates greatly increased predisposition to disease. An individual with pre-disease often lacks symptoms of the related disease.
+: Examples include:
+
+    * Precancerous lesions
+    * Increased intraocular pressure (preglaucoma)
+    * Prehypertension
+    * Hyperlipidemia
+    * Prediabetes
+    * Osteopenia (bone density that is low but not low enough to be considered osteoporosis)
+
 <span id="prehabilitation">prehabilitation</span>
 : [physical therapy]
 : strength and conditioning exercises for specific muscles that help to reduce injury risks, before an injury actually occurs

@@ -1,12 +1,10 @@
----
-hide:
-  - navigation
-  - toc
----
 
 # A Worldwide Website and Database for Chronobiology-based Healthcare
 
 26 August 2012
+
+!!! bug "Temporary Draft"
+    This article might be removed after its contents are transferred to other articles.
 
 [^1]: Halberg Chronobiology Center, University of Minnesota, Minneapolis, MN, USA
 [^2]: Phoenix Project
