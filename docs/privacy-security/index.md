@@ -1,6 +1,3 @@
----
-title: Privacy &amp; security
----
 
 ## Core Concepts
 

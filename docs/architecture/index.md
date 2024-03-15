@@ -1,6 +1,3 @@
----
-title: Architecture
----
 
 ![Under Construction][def]
 

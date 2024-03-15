@@ -1,32 +1,7 @@
-Jump to:
-[A](#a) |
-[B](#b) |
-[C](#c) |
-[D](#d) |
-[E](#e) |
-[F](#f) |
-[G](#g) |
-[H](#h) |
-[I](#i) |
-[J](#j) |
-[K](#k) |
-[L](#l) |
-[M](#m) |
-[N](#n) |
-[O](#o) |
-[P](#p) |
-[Q](#q) |
-[R](#r) |
-[S](#s) |
-[T](#t) |
-[U](#u) |
-[V](#v) |
-[W](#w) |
-[X](#x) |
-[Y](#y) |
-[Z](#z) |
-[Other](#other)
-
+---
+hide:
+  - navigation
+---
 
 ### A
 
@@ -37,9 +12,18 @@ Jump to:
 
 <span id="acrophase">acrophase</span>
 : [statistics]
-:   1. Measure of timing of a rhythm in relation to a defined reference time point selected by the investigator (e. g., local midnight for circadian rhythms); used for data which can be described by the fitting of a mathematical model, e.g., a cosine curve, and represents the crest time of the cosine curve best fitting to the data; may be expressed in (negative) degrees as the lag from the acrophase reference (360&deg;C =1 period) or in calendar time units (e.g., hours and minutes for circadian rhythms, days or months for infradian rhythms). (source: [AAMCC](http://www.aamcc.net/glossary.htm){: target="_blank" })
-    2. _n_. The time at which the peak of a rhythm occurs. Note: Originally, acrophase referred to the phase angle of the peak of a cosine wave fitted to the raw data of a rhythm (time series). When the term is applied to the actual rhythm, the acrophase will likely vary from cycle to cycle. Unit of measurement: hours (h) or degrees of circumference (&deg;) in relation to an absolute or arbitrary reference. Caveat: The official units of time and of plane angle in the International System of Units are, respectively, the second and the radian. // Cf. [cosinor](#cosinor) and [peak](#peak). (source: [circadian.org](http://www.circadian.org/dictionary.html){: target="_blank" })
-    3. The lag between the reference time (midnight, or 0000 hours in a 24-hour day) and the time of the rhythm's crest.
+:   1. The time at which the peak of a rhythm occurs, relative to a defined reference timepoint selected by the investigator (e. g., local midnight for circadian rhythms). 
+    1. The phase angle of the peak of a cosine wave fitted to the raw data of a rhythm (time series).
+
+: Used for a cosine wave fitted to the raw data of a rhythm (time series). Can be either used for the best-fit curve or applied to the actual rhythm, in which case the acrophase will likely vary from cycle to cycle.
+
+: Units of measure:
+
+    * Angular measurement: degrees, radians
+    * Time measurement: seconds, minutes, hours, days, months, years, decades, centuries, with minutes and hours for [circadian](#circadian) rhythms, days or months for [infradian](#infradian) rhythms
+    * Episodic measurment: number of heart beats, number of respirations&hellip;
+
+: _ref_: [AAMCC](http://www.aamcc.net/glossary.htm){: target="_blank" }, [circadian.org](http://www.circadian.org/dictionary.html){: target="_blank" }
 
 <span id="activity-of-daily-living">activity of daily living (ADL)</span>
 : [medicine]
@@ -51,18 +35,21 @@ Jump to:
 : [medicine]
 : See [activity of daily living](#activity-of-daily-living).
 
-<span id="amplitude">amplitude (A)</span>
+<span id="amplitude">amplitude</span>
 : [statistics]
-:   1. Half the total predictable change in a rhythm.
-    2. The measure of one half of the extent of the rhythmic change estimated by the mathematical model (e.g., cosine curve) best fitting to the data (e.g., the difference between the maximum and the rhythm-adjusted mean (MESOR) of the best fitting curve).
+: A measure of one half the extent of rhythmic change in a cycle estimated by the sinusoidal (or other) function used to approximate the rhythm, e.g., the difference between the maximum and [MESOR](#mesor) of a best fitting cosine.
+: Units: original physiological units, e.g., number of heart beats, mmHg in blood pressure, etc.
 : (source: [AAMCC](http://www.aamcc.net/glossary.htm){: target="_blank" })
+
+<span id="angular-frequency">angular frequency</span>
+: special case of frequency of a periodic process expressed in degrees or radians per unit of time obtained by equating one cycle to 2π, e.g., ω in equation y(t) = M + A cos(ωt + φ) used to approximate a rhythm. Observe relation between angular frequency and frequency: ω = 2π/ τ = 2πf since frequency is the reciprocal of the period: f = 1/ τ Note: equivalent to angular velocity, usually visualized on polar coordinates.
 
 <span id="artery">artery</span>
 : [physiology]
 : A blood vessel that carries blood from the heart to the body.
 : Contrast with [vein](#vein).
 
-
+---
 ### B
 
 <span id="bathymetron">bathymetron</span>
@@ -109,7 +96,7 @@ Jump to:
 <span id="body-motion">body motion</span>
 : [definition needed]
 
-
+---
 ### C
 
 <span id="capillary">capillary</span>
@@ -133,8 +120,7 @@ Jump to:
 : See also [heart rate variability](#heart-rate-variability).
 
 <span id="chat">CHAT</span>
-: Acronym for [circadian hyper-amplitude-tension](#circadian-hyper-amplitude-tension).
-: Acronym for _Cetacean Hearing and Telemetry_
+: [chronomedicine] Acronym for [circadian hyper-amplitude-tension](#circadian-hyper-amplitude-tension).
 
 <span id="chronobiology">chronobiology</span>
 : [biology]
@@ -150,8 +136,7 @@ Jump to:
 : [definition needed]
 
 <span id="chronodesm">chronodesm</span>
-: [in progress] A time-qualified reference range.
-
+: A time-qualified reference interval, e.g., time-qualified prediction or tolerance interval.
 
 <span id="chronodesmic-band">chronodesmic band</span>
 : [definition needed]
@@ -173,14 +158,17 @@ Jump to:
 <span id="chronomics">chronomics</span>
 : The molecular mechanisms involved in[chronobiological](#chronobiology) phenomena.
 : The quantitative aspects of [chronobiology](#chronobiology), particularly where comparison of cycles between organisms, or between an organism and external phenomena, is required.
-: source: [Wikipedia](http://en.wikipedia.org/wiki/Chronomics)[: target="_blank" ]
+: source: [Wikipedia](http://en.wikipedia.org/wiki/Chronomics){: target="_blank" }
 
 <span id="chronotherapy">chronotherapy</span>
 : the treatment of disease based on principles of [chronobiology](#chronobiology).
 : _adj_. = chronotherapeutic.
 : (source: [circadian.org](http://www.circadian.org/dictionary.html){: target="_blank" })
 
-<span id="circadian">circadian</span>
+<span id="ci">CI</span>
+: Iniitialism of [confidence interval](#confidence-interval)
+
+<span id="circadian">circadian</span>.
 : _adj_.  Of or pertaining to about 24 hours.  Of or pertaining to rhythms with an about 24-hour ( &gt; 20 to &lt; 28 h) cycle length whether they are synchronized with a 24-hour periodic surrounding or not.
 : Contrast with
 
@@ -202,6 +190,8 @@ Jump to:
 <span id="circadian-hyper-amplitude-tension">circadian hyper-amplitude-tension (CHAT)</span>
 : [chronomedicine]
 : The problem of excessive variability of blood pressure during a 24-hour interval.
+: Circadian double-amplitude exceeding the upper limit(s) of reference value(s) derived from peers matched by gender and age.
+: _syn_. circadian overswing
 : See also [hyperamplitude tension](#hyperamplitude-tension).
 
 <span id="circannual">circannual</span>
@@ -231,8 +221,15 @@ Jump to:
 : The reciprocal of elastance.
 : (source: Dorlands)
 
-<span id="cosinor-analysis">cosinor analysis</span>
-: [statistics] Least squares approximation of a time series using a cosine function of known period.
+<span id="confidence-interval">confidence interval (CI)</span>
+: [statistics] An interval which is expected to typically contain the parameter being estimated. More specifically, given a confidence level &gamma; (95% and 99% are typical values), a CI is a random interval which contains the parameter being estimated &gamma;% of the time.
+: See [Wikipedia article](https://en.wikipedia.org/wiki/Confidence_interval){: target="_blank" }
+
+<span id="congruence">congruence</span>
+: Overlying or overlapping uncertainties (e.g., 95% confidence intervals) of two or more periods estimated in a time series
+
+<span id="cosinor">cosinor</span>
+: [statistics] A least squares approximation of a time series using a cosine function of known period.
 : The following equation is a single-component model of circadian rhythms and is typical of cosinor analysis.
     !!! quote "Excerpt from _Cosinor-based rhythmometry_"
 
@@ -256,13 +253,17 @@ Jump to:
         
         (Cornelissen G. Cosinor-based rhythmometry. Theor Biol Med Model. 2014 Apr 11;11:16. doi: 10.1186/1742-4682-11-16. PMID: 24725531; PMCID: PMC3991883.[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3991883/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3991883/){: target="_blank" }.)
 
-
+---
 ### D
 
-<span id="decreased heart rate variability">decreased heart rate variability (DHRV)</span>
-: [medicine]
-: decreased [standard deviation](#standard-deviation) of [heart rate](#heart-rate)
-: [definition is preliminary -- need explanation of clinical relevance]
+<span id="decreased-heart-rate-variability">decreased heart rate variability</span>
+: See [deficient heart rate variability](#deficient-heart-rate-variability)
+
+<span id="deficient-heart-rate-variability">decreased heart rate variability (DHRV)</span>
+: [chronomedicine] a [standard deviation](#standard-deviation) of [heart rate](#heart-rate) (determined around the clock for 7-days at 1-hour or shorter intervals) below the threshold of 7 beats per minute, a criterion to be further qualified for gender and age.
+
+<span id="desynchronization">desynchronization</span>
+: A state of two or more previously synchronized rhythmic variables that have ceased to exhibit the same [frequency](#frequency) and/or the same [acrophase](#acrophase) relationships and show changing time relations.
 
 <span id="dhrv">DHRV</span>
 : Initialism for [decreased heart rate variability](#decreased heart rate variability).
@@ -314,11 +315,15 @@ Jump to:
 : [statistics]
 : [definition needed]
 
-
+---
 ### E
 
 <span id="ecphasia">ecphasia</span>
-: [definition needed]
+: Odd [acrophase](#acrophase) outside reference values of gender- and age-matched peers.
+
+<span id="ecfrequentia">ecfrequentia</span>
+: Odd [frequency](#frequency) outside reference values of gender- and age-matched peers.
+: _syn_. frequency alteration, frequence [desynchronization](#desynchronization)
 
 <span id="elastance">elastance</span>
 : [physiology]
@@ -327,17 +332,27 @@ Jump to:
 : Symbol E.
 : The reciprocal of [compliance](#compliance).
 
-<span id="elevated-pulse-pressure">elevated pulse pressure</span>
-: [medicine]
+<span id="entrainment">entrainment</span>
+: interaction between two or more organismic rhythms or the effect upon rhythm(s) of an (external) synchronizer, resulting in identical frequencies among interactions or in frequencies constituting integral multiples of one another (frequency multiplication or demultiplication).
+
+<span id="excessive-pulse-pressure">excessive pulse pressure</span>
+: [chronomedicine]
 : The problem of too large a difference between [diastolic](#diastolic-blood-pressure) and [systolic blood pressure](#systolic-blood-pressure) (between when the heart contracts and relaxes, respectively).
-: [definition is preliminary -- need explanation of clinical relevance]
 
-<a name="f"></a>
+---
+### F
 
+<span id="free-running">free-running</span>
+: pertaining to continuance of bioperiodicity with a natural frequency, usually at least slightly different from any known environmental schedule.
 
-<a name="g"></a>
+<span id="frequency">frequency</span>
+: the number of occurrences of a given type of event or the number of members in a population falling into a specified class.
+: Note: in the study of periodicity it is the number of cycles occurring per time unit, i.e., f is the reciprocal of the period (τ) f = 1/τ
 
+---
+### G
 
+---
 ### H
 
 <span id="hbi">HBI</span>
@@ -405,7 +420,7 @@ Jump to:
 : The problem of abnormally low blood pressure.
 : Contrast with [hypertension](#hypertension).
 
-
+---
 ### I
 
 <span id="illness">illness</span>
@@ -417,7 +432,7 @@ Jump to:
 : [chronobiology]
 : _adj_. Of or pertaining to biologic variations or rhythms occurring in cycles less frequent than every 24 hours, e.g., 19 to 22 days.
 
-
+---
 ### J
 
 <span id="jitter">jitter</span>
@@ -426,14 +441,14 @@ Jump to:
 : [neurophysiology]  Muscle jitter.  The normal electric variability -- chaos -- measured by single-fiber EMG, in the interval between two action potentials of successive discharges of the same single muscle fiber in the same motor unit.
 : [cardiology]  See [heart rate variability](#heart-rate-variability).
 
-
+---
 ### K
 
 <span id="korotkoff-sounds">Korotkoff sounds</span>
 : [medicine]
 : The sounds that medical personnel listen for when they are taking blood pressure using a non-invasive procedure.
 
-
+---
 ### L
 
 <span id="least-squares">least squares</span>
@@ -452,7 +467,7 @@ Jump to:
 <span id="linear-algebra">linear algebra</span>
 : [[mathematics](#mathematics)]
 
-
+---
 ### M
 
 <span id="macrophase">macrophase</span>
@@ -477,24 +492,14 @@ Jump to:
 
 <span id="mesor">MESOR (midline estimating statistic of rhythm)</span>
 : [statistics]
-: 1. The value midway between the highest and the lowest values of the (cosine) function that best fits the data.
+: _n_. An estimate of central tendency of the distribution of values of an oscillating variable. A rhythm-determined average. The average value around which the variable oscillates.
+: The MESOR is a circadian rhythm-adjusted mean based on the parameters of a cosine function fitted to the raw data. Note: When a process is known to be rhythmic, and the data points are not equidistant or the sample size is small, the MESOR often provides a more appropriate unbiased estimator of central tendency than does the arithmetic mean of the raw data. // Cf. Mean level. (source: [circadian.org](http://www.circadian.org/dictionary.html){: target="_blank" })
+: In the case of single cosine approximation, the value midway between the highest and the lowest values of the (cosine) function that best fits the data.
 
-        The "M" is equal to the arithmetic mean only for equidistant data covering an integral number of cycles.  If, for example, most of the data are clustered around the peak of the curve, because the researcher gathered more data at this time, the arithmetic mean will be much higher than the MESOR.
-        (source: [AAMCC](http://www.aamcc.net/glossary.htm){: target="_blank" })
-
-    2. _n_. An estimate of central tendency of the distribution of values of an oscillating variable (the average value around which the variable oscillates).
-
-        The MESOR is a circadian rhythm-adjusted mean based on the parameters of a cosine function fitted to the raw data. Note: When a process is known to be rhythmic, and the data points are not equidistant or the sample size is small, the MESOR often provides a more appropriate unbiased estimator of central tendency than does the arithmetic mean of the raw data. // Cf. Mean level.
-        (source: [circadian.org](http://www.circadian.org/dictionary.html){: target="_blank" })
-
-
-<span id="mesor-Hypertension">MESOR-hypertension</span>
-: [hypertension](#hypertension) as indicated by measurements taken throughout multiple days
-: [definition is preliminary -- need explanation of clinical relevance]
-: Though the condition is sometimes categorized as a vascular variability disorder, the MESOR is a type of average and not a measure of variability per se.
-One way to look at this is to say that on the basis of the data, the circadian variation is assessed by fitting a model to the data, and this model is characterized by three parameters:  the MESOR, the 24-hour amplitude, the 24-hour acrophase.
-(If considered, a two-component model is charactered by five parameters, the three components of the one-component model plus the 12-hour amplitude and the 12-hour acrophase).
-
+<span id="mesor-hypertension">MESOR-hypertension</span>
+: [hypertension](#hypertension) as indicated by measurements taken during multiple days
+: For systolic and/or diastolic blood pressure, a transient or lasting elevation of the [circadian](#circadian) rhythm-adjusted mean ([MESOR](#mesor)) as validated statistically against the person's (patient's) own MESOR at another time and/or against a peer reference standard.
+: Though the condition is sometimes categorized as a [vascular variability disorder](#vascular-variability-disorder), the MESOR is a type of average and not a measure of variability per se. One way to look at this is to say that on the basis of the data, the circadian variation is assessed by fitting a model to the data, and this model is characterized by three parameters:  the [MESOR](#mesor), the 24-hour [amplitude](#amplitude), the 24-hour [acrophase](#acrophase). (If considered, a two-component model is characterized by five parameters, the three components of the one-component model plus the 12-hour amplitude and the 12-hour acrophase).
 
 <span id="morbidity">morbidity</span>
 : [medicine]
@@ -505,21 +510,21 @@ One way to look at this is to say that on the basis of the data, the circadian v
 <span id="multilinear-algebra">multilinear algebra</span>
 : [[mathematics](#mathematics)]
 
-
+---
 ### N
 
 <span id="nurse-clinician">nurse clinician</span>
 
 : a registered nurse who has received special training and can perform many of the duties of a physician
 
-
+---
 ### O
 
 <span id="orthogonal-matrix">orthogonal matrix</span>
 : [linear and multilinear algebra]; [matrix theory]
 : See also [coefficient matrix](#coefficient-matrix), [triangular matrix](#triangular-matrix).
 
-
+---
 ### P
 
 <span id="parametric">parametric</span>
@@ -548,6 +553,9 @@ One way to look at this is to say that on the basis of the data, the circadian v
 : [domains]
 :   1. The properties and functions of animal and vegetable organs and tissues.
     2. The branch of the biological sciences dealing with the functioning of organisms.					
+
+<span id="prediction-interval">prediction interval</span>
+: A range of values expected to contain, on the average, a specified proportion of a population or of a distribution (of values) from an individual.
 
 <span id="predisease">pre-disease</span>
 : [medicine] A condition that is not at a stage or level that would classify it as disease but that indicates greatly increased predisposition to disease. An individual with pre-disease often lacks symptoms of the related disease.
@@ -584,10 +592,10 @@ One way to look at this is to say that on the basis of the data, the circadian v
 : The time that the pulse wave needs for the propagation from the aorta to the peripheral vessels.
 : Pulse transit time is closely connected to blood pressure and the condition of the arterial vessels.
 
+---
+### Q
 
-<a name="q"></a>
-
-
+---
 ### R
 
 <span id="rehabilitation">rehabilitation</span>
@@ -603,6 +611,9 @@ One way to look at this is to say that on the basis of the data, the circadian v
 : [statistics]
 : the difference between results obtained through theoretical calculation and those obtained through observation
 
+<span id="resonance">resonance</span>
+: property of a system oscillating (or capable of oscillating) with some natural [frequency](#frequency) (or [rhythm](#rhythm)) to exhibit an increased amplitude (or to begin oscillating) when subjected to an external periodic influence or force with a frequency similar to that of the system, the amplitude of the resonant frequency increasing as the outside periodic influence approaches the natural frequency of the system.
+
 <span id="retinopathy">retinopathy</span>
 : [medicine]
 : Any disease of the retina, the light-sensitive membrane at the back of the eye.
@@ -617,9 +628,9 @@ One way to look at this is to say that on the basis of the data, the circadian v
 : (source: [medterms.com](http://www.medterms.com){: target="_blank" })
 
 <span id="rhythm">rhythm</span>
-: [definition needed]
+: a periodic component of (biologic) time series, demonstrated by inferential statistical means, preferably with objectively quantified characteristics (i.e., [frequency](#frequency), [acrophase](#acrophase), [amplitude](#amplitude), [MESOR](#mesor), and/or waveform).
 
-
+---
 ### S
 
 <span id="self-care">self-care</span>
@@ -653,7 +664,6 @@ One way to look at this is to say that on the basis of the data, the circadian v
 : [statistics]
 : the square root of the [variance](#variance) of some statistical population, data set, or probability distribution
 : The standard deviation may be thought of as the average difference of the scores from the mean of distribution, how far they are away from the mean. A low standard deviation indicates that the data points tend to be very close to the mean, whereas high standard deviation indicates that the data are spread out over a large range of values.
-
 : See [Wikipedia article](http://en.wikipedia.org/wiki/Standard_Deviation){: target="_blank" }
 
 <span id="statistics">statistics</span>
@@ -682,7 +692,7 @@ One way to look at this is to say that on the basis of the data, the circadian v
 : the peak blood pressure in the arteries during the cardiac cycle, during the contraction phase of the heart
 : Contrast with [diastolic blood pressure](#diastolic-blood-pressure).
 
-
+---
 ### T
 
 <span id="technician">technician, medical office technician</span>
@@ -692,7 +702,7 @@ One way to look at this is to say that on the basis of the data, the circadian v
 : [linear and multilinear algebra]; [matrix theory]
 : See also [coefficient matrix](#coefficient-0matrix), [orthogonal matrix](#orthogonal-matrix).
 
-
+---
 ### U
 
 <span id="ultradian">ultradian</span>
@@ -700,7 +710,7 @@ One way to look at this is to say that on the basis of the data, the circadian v
 : _adj_. Of or pertaining to biologic variations or rhythms occurring in cycles more frequent than every 24 hours.
 : Contrast with [circannual](#circannual), [circadian](#circadian), [circaseptan](#circaseptan), [infradian](#infradian).
 
-
+---
 ### V
 
 <span id="variability">variability</span>
@@ -744,24 +754,36 @@ One way to look at this is to say that on the basis of the data, the circadian v
 : See also [cardiovascular variability](#cardiovascular-variability).
 : See also [heart rate variability](#heart-rate-variability).
 
+<span id="vascular-variability-anomaly">vascular variability anomaly (VVA)</span>
+: [chronomedicine] [definition needed]
+
+<span id="vascular-variability-disorder">vascular variability disorder (VVD)</span>
+: [chronomedicine] A persistent [vascular variability anomaly](#vascular-variability-anomaly).
+
+<span id="vva">VVA</span>
+: See [vascular variability anomaly](#vascular-variability-anomaly).
+
+<span id="vvd">VVD</span>
+: See [vascular variability disorder](#vascular-variability-disorder).
+
 <span id="vein">vein</span>
 : [physiology]
 : A blood vessel that carries blood from the capillaries toward the heart; all veins except the pulmonary carry unaerated blood.
 : Contrast with [artery](#artery).
 
-
+---
 ### W
 
 <span id="wearable">wearable</span>
 : _adj_. Suitable for wear or able to be worn on the body
 
+---
+### X
 
-<a name="x"></a>
+---
+### Y
 
-
-<a name="y"></a>
-
-
+---
 ### Z
 
 <span id="zeitgeber">Zeitgeber</span>
@@ -770,5 +792,5 @@ One way to look at this is to say that on the basis of the data, the circadian v
 : Zeitgeber comes from the German <dfn>Zeit</dfn>, time + <dfn>Geber</dfn>, giver = time-giver. The term <dfn>Zeitgeber</dfn> was introduced into science about 1954 by Jurgen Aschoff, then the Director of the Max-Planck-Institute in Erling-Andechs, near Munich.
 : (source: [medterms.com](http://www.medterms.com){: target="_blank" })
 
-
-<a name="other"></a>
+---
+### Other

@@ -12,19 +12,22 @@ copyright: <p xmlns:cc="http://creativecommons.org/ns#" ><a rel="cc:attributionU
 nav:
   - The Phoenix Chronobiology Projects: index.md
   - Requirements:
-      - requirements/index.md
-      - Halberg's vision: requirements/halberg-vision.md
+      - Requirements: requirements/index.md
+      - COSINOR analysis: requirements/cosinor.md
+      - CUSUM analysis: requirements/cusum.md
+      - Design goals: requirements/design-goals.md
+      - Quality goals: requirements/quality-goals.md
   - Architecture:
-      - architecture/index.md
+      - Architecture: architecture/index.md
   - Privacy &amp; security:
-      - privacy-security/index.md
+      - Privacy &amp; security: privacy-security/index.md
       - Security requirements: privacy-security/security-requirements.md
       - Security architecture: privacy-security/security-architecture.md
       - Threat assessment: privacy-security/threat-assessment.md
       - Attack surface analysis: privacy-security/attack-surface-analysis.md
-  - Glossary: glossary/index.md
+  - Glossary: glossary.md
   - About the site:
-      - about/index.md
+      - About the site: about/index.md
       - Macros info: about/macros-info.md
 
 not_in_nav: |
