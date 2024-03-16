@@ -25,6 +25,8 @@ nav:
       - Security architecture: privacy-security/security-architecture.md
       - Threat assessment: privacy-security/threat-assessment.md
       - Attack surface analysis: privacy-security/attack-surface-analysis.md
+  - Library:
+     - Library: library/index.md
   - Glossary: glossary.md
   - About the site:
       - About the site: about/index.md
