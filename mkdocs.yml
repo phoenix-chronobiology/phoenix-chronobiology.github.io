@@ -124,6 +124,7 @@ plugins:
       custom_format: "%Y-%m-%d %H:%M:%S%z (%Z)"
       locale: en
       timezone: US/Central
+  - link-marker
   - macros
   - privacy:
       enabled: !ENV [CI, false]   # needs to be enabled at some point

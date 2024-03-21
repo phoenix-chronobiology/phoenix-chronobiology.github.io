@@ -4,7 +4,7 @@
 
 **{{ config.site_name }}** underpin an emerging healthcare program that uses [chronobiologic](../glossary#chronobiology) techniques to prevent [strokes](../glossary#stroke) and other effects of cardiac disease.
 
-The system uses blood pressure measurements taken approximately every 30 minutes, day and night, in ambulatory fashion. Ideally, seven days of data are available. This data is analyzed with **[cosinor:material-link:](cosinor.md)** and **[cumulative-sum:material-link:](cusum.md)** algorithms.
+The system uses blood pressure measurements taken approximately every 30 minutes, day and night, in ambulatory fashion. Ideally, seven days of data are available. This data is analyzed with **[cosinor](cosinor.md)** and **[cumulative-sum](cusum.md)** algorithms.
 
 The results of an analysis is available directly to the patient, and when appropriate, to the patient’s healthcare provider. Analysis solutions are automated and easy to use.
 
@@ -68,7 +68,7 @@ The website will provide the reports and data access mechanisms that meet approp
 ## Required attributes
 
 !!! bug
-    Reconcile the following with [Design goals:material-link:](design-goals.md) and [Quality goals:material-link:](quality-goals.md).
+    Reconcile the following with [Design goals](design-goals.md) and [Quality goals](quality-goals.md).
 
 Inexpensive
 : Free and open source software [^foss]
