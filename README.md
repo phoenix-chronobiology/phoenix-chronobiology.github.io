@@ -4,7 +4,7 @@
 
 **The Phoenix Chronobiology Projects**:
 
-* Work with the [University of Minnesota's Halberg Chronobiology Center](https://halbergchronobiologycenter.umn.edu)
+* Work with the [University of Minnesota's Halberg Chronobiology Center](https://halbergchronobiologycenter.umn.edu).
 * Operate as a study group of the [Twin Cities Section of the Institute of Electrical and Electronics Engineers](http://www.tc-ieee.org).
 
 The goals of the Projects are to develop:
