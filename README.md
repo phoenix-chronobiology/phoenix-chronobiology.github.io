@@ -2,7 +2,12 @@
 
 ## Overview
 
-**The Phoenix Chronobiology Projects** work with the [University of Minnesota's Halberg Chronobiology Center :link:](https://halbergchronobiologycenter.umn.edu) and operate as a study group of the [Twin Cities Section of the Institute of Electrical and Electronics Engineers :link:](http://www.tc-ieee.org). The goals of the Projects are to develop:
+**The Phoenix Chronobiology Projects**:
+
+* Work with the [University of Minnesota's Halberg Chronobiology Center](https://halbergchronobiologycenter.umn.edu)
+* Operate as a study group of the [Twin Cities Section of the Institute of Electrical and Electronics Engineers](http://www.tc-ieee.org).
+
+The goals of the Projects are to develop:
 
 1. An ambulatory blood pressure monitor that is inexpensive, unobtrusive, easy to use, and collects a week of blood pressure measurements.
 1. A platform for biorythm analysis.
@@ -18,11 +23,11 @@ This repository hosts the Projects' home page, which is published on GitHub Page
 
 ### Static site generator
 
-**MkDocs** is a static site generator that is geared toward building project documentation. Source files are written primarily in [Markdown :link:](https://www.markdownguide.org), and configured with a single YAML configuration file
+**MkDocs** is a static site generator that is geared toward building project documentation. Source files are written primarily in [Markdown](https://www.markdownguide.org), and configured with a single YAML configuration file
 
 This site uses Markdown, HTML and cascading style sheets.
 
-For full documentation, visit [mkdocs.org :link:](https://www.mkdocs.org).
+For full documentation, visit [mkdocs.org](https://www.mkdocs.org).
 
 ### Commands
 
@@ -34,34 +39,40 @@ For full documentation, visit [mkdocs.org :link:](https://www.mkdocs.org).
 ### Project layout
 
 ```
-mkdocs.yml          # The configuration file.
+mkdocs.yml              # The configuration file
 docs/
-    index.md        # The documentation homepage.
+    index.md            # The documentation homepage
+    glossary.md
     about/
     architecture/
-    glossary/
     images/
     javascripts/
+    library/            # Informative and instructive articles
+    privacy-security/
     requirements/
     snippets/
     stylesheets/
-    vision/
-    ...             # Other markdown pages, images and other files.
 ```
 
 ### Theme
 
-[Material for MkDocs :link:](https://squidfunk.github.io/mkdocs-material)
+[Material for MkDocs](https://squidfunk.github.io/mkdocs-material)
 
 ## Building the site
 
 ### Production build
 
-The site is built and deployed via GitHub Actions.
+The site is built and deployed via [GitHub Actions](https://docs.github.com/en/actions).
 
-The actions are triggered by a `push` to the `main` branch.
+The actions are triggered by a `git push` to the `main` branch.
+
+> The repository currently places minimal constraints on change. Anyone with write access may directly `push` content from a local repository to the GitHub repository. Expect more robust change management as the number of contributors grows. 
 
 ### Local build
+
+1. Set up `git`
+
+    See <a href="https://git-scm.com/downloads" target="_blank">https://git-scm.com/downloads</a>
 
 1. Checkout repository
 
@@ -71,7 +82,7 @@ The actions are triggered by a `push` to the `main` branch.
 
 1. Set up Node.js runtime
 
-    > Production environment includes Node version 20.x
+    > Production environment includes _Node version 20.x_
 
     See <a href="https://nodejs.org/en" target="_blank">https://nodejs.org/en</a>
 
@@ -83,7 +94,7 @@ The actions are triggered by a `push` to the `main` branch.
 
 1. Set up Python runtime
 
-    > Production environment includes Python version 3.x
+    > Production environment includes _Python version 3.x_
 
     See <a href="https://www.python.org/" target="_blank">https://www.python.org/</a>
 
@@ -105,14 +116,18 @@ The actions are triggered by a `push` to the `main` branch.
     mkdocs --version
     ```
 
-1. Start mkdocs server
+1. Start MkDocs server
 
-    > See `mkdocs -h` for port options
+    > See `mkdocs serve -h` for port options
+    >
+    > Default is port `8000`
 
     ```
     mkdocs serve
     ```
 
 1. Open local site
+
+    > Use port specified with `mkdocs serve` command
 
     Open <a href="http://127.0.0.1:8000/" target="_blank">http://127.0.0.1:8000/</a>
