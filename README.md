@@ -77,7 +77,7 @@ The actions are triggered by a `git push` to the `main` branch.
 1. Checkout repository
 
     ```
-    git clone https://github.com/cadams4341/phoenix-biorhythm-platform.git
+    git clone https://github.com/phoenix-chronobiology/phoenix-biorhythm-platform.git
     ```
 
 1. Set up Node.js runtime
