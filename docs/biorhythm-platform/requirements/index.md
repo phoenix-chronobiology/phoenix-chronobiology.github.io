@@ -1,4 +1,4 @@
-![Under Construction](../images/underconstruction.svg)
+![Under Construction](../../images/underconstruction.svg)
 
 ## Overview
 
@@ -32,14 +32,14 @@ The public-facing websites contain:
 !!! bug
     The diagrams in this article are out-of-date but are included as placeholders to organize the article.
 
-![Context Diagram](../images/context-diagram.png)
+![Context Diagram](../../images/context-diagram.png)
 
 Inputs: blood pressure measurements taken approximately every 30 minutes, day and night, in ambulatory fashion.
 
 
 ## Actors
 
-![Actors](../images/requirements-actors-model.png)
+![Actors](../../images/requirements-actors-model.png)
 
 ### Actor profile table
 

@@ -1,4 +1,4 @@
-![Under Construction](../images/underconstruction.svg)
+![Under Construction](../../images/underconstruction.svg)
 
 **Cosinor analysis** uses the [least squares method](../../glossary#least-squares) to fit a sine wave to a time series. Cosinor analysis is often used in the analysis of biologic time series that demonstrate predictible rhythms. This method can be used with an unequally spaced time series.
 

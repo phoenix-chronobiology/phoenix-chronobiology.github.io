@@ -6,27 +6,31 @@ repo_url: https://github.com/phoenix-chronobiology/phoenix-biorhythm-platform
 
 edit_uri: null
 
-copyright: <p xmlns:cc="http://creativecommons.org/ns#" ><a rel="cc:attributionURL" href="https://phoenix-chronobiology.github.io/phoenix-biorhythm-platform/">This work</a> &copy; 2024 by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/phoenix-chronobiology" target="_blank">CHRISTOPHER ADAMS</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a></p>
+copyright: <p xmlns:cc="http://creativecommons.org/ns#" ><a rel="cc:attributionURL" href="https://phoenix-chronobiology.github.io/phoenix-biorhythm-platform/">This work</a> &copy; 2024 by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/phoenix-chronobiology" target="_blank">CHRISTOPHER ADAMS</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"> &boxbox;</a></p>
 
 # DOCUMENTATION LAYOUT
 nav:
   - The Phoenix Chronobiology Projects: index.md
-  - Requirements:
-      - Requirements: requirements/index.md
-      - COSINOR analysis: requirements/cosinor.md
-      - CUSUM analysis: requirements/cusum.md
-      - Design goals: requirements/design-goals.md
-      - Quality goals: requirements/quality-goals.md
-  - Architecture:
-      - Architecture: architecture/index.md
-  - Privacy &amp; security:
-      - Privacy &amp; security: privacy-security/index.md
-      - Security requirements: privacy-security/security-requirements.md
-      - Security architecture: privacy-security/security-architecture.md
-      - Threat assessment: privacy-security/threat-assessment.md
-      - Attack surface analysis: privacy-security/attack-surface-analysis.md
+  - ABPM: abpm/index.md
+  - Biorhythm Platform:
+      - Biorhythm Platform: biorhythm-platform/index.md
+      - Requirements:
+          - Requirements: biorhythm-platform/requirements/index.md
+          - COSINOR analysis: biorhythm-platform/requirements/cosinor.md
+          - CUSUM analysis: biorhythm-platform/requirements/cusum.md
+          - Design goals: biorhythm-platform/requirements/design-goals.md
+          - Quality goals: biorhythm-platform/requirements/quality-goals.md
+      - Architecture:
+          - Architecture: biorhythm-platform/architecture/index.md
+      - Privacy &amp; security:
+          - Privacy &amp; security: biorhythm-platform/privacy-security/index.md
+          - Security requirements: biorhythm-platform/privacy-security/security-requirements.md
+          - Security architecture: biorhythm-platform/privacy-security/security-architecture.md
+          - Threat assessment: biorhythm-platform/privacy-security/threat-assessment.md
+          - Attack surface analysis: biorhythm-platform/privacy-security/attack-surface-analysis.md
   - Library:
      - Library: library/index.md
+     - Old Project Archive &boxbox;: https://phoenix-chronobiology.github.io/hyde/
   - Glossary: glossary.md
   - About the site:
       - About the site: about/index.md

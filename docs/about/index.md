@@ -26,19 +26,35 @@ For full documentation, visit [mkdocs.org](https://www.mkdocs.org){: target="_bl
 ### Project layout
 
 ```
-mkdocs.yml          # The configuration file.
+mkdocs.yml              # The configuration file
 docs/
-    index.md        # The documentation homepage.
+    index.md            # The documentation homepage
     about/
-    architecture/
-    glossary/
+        index.md
+        ...
+    abpm/               # ambulatory blood pressure monitor project
+        index.md
+        ...
+    biorhythm-platform/ # biorhythm analysis platform project
+        index.md
+        architecture/
+            index.md
+            ...
+        requirements/
+            index.md
+            ...
     images/
     javascripts/
-    requirements/
+    library/
+        index.md
+        ...
+    privacy-security/
+        index.md
+        ...
     snippets/
     stylesheets/
-    vision/
-    ...             # Other markdown pages, images and other files.
+    glossary.md
+    ...                 # Other markdown pages and other files
 ```
 
 ### Theme

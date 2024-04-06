@@ -251,7 +251,7 @@ hide:
 
         **Definition of rhythm characteristics.** The [MESOR](#mesor) is a rhythm-adjusted mean; the double amplitude (2A) is a measure of the extent of predictable change within a cycle; the [acrophase](#acrophase) is a measure of the timing of overall high values recurring in each cycle, expressed in (negative) degrees in relation to a reference time set to 0°, with 360° equated to the period; and the [period](#period) is the duration of one cycle. &copy; Halberg Chronobiology Center.
         
-        (Cornelissen G. Cosinor-based rhythmometry. Theor Biol Med Model. 2014 Apr 11;11:16. doi: 10.1186/1742-4682-11-16. PMID: 24725531; PMCID: PMC3991883.[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3991883/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3991883/){: target="_blank" }.)
+        (Cornelissen G. Cosinor-based rhythmometry. Theor Biol Med Model. 2014 Apr 11;11:16. doi: 10.1186/1742-4682-11-16. PMID: 24725531; PMCID: PMC3991883. [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3991883/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3991883/){: target="_blank" }.)
 
 ---
 ### D

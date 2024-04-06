@@ -1,4 +1,4 @@
-![Under Construction](../images/underconstruction.svg)
+![Under Construction](../../images/underconstruction.svg)
 
 <span id="qg_Func_Correctness">Functionality &gt; Correctness</span>
 : Correctness is the most basic quality goal. It means that, when valid inputs are given and the system is in a valid state and under reasonable load, the system's behavior and results will be correct.

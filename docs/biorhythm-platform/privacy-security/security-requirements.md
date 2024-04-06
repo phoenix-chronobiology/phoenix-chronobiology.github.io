@@ -1,4 +1,4 @@
-![Under Construction](../images/underconstruction.svg)
+![Under Construction](../../images/underconstruction.svg)
 
 !!! bug
     The following is a hodge-podge of ideas that must be:
