@@ -247,7 +247,7 @@ hide:
             \end{align}
         \)
 
-        ![rhythm-characteristics](../images/rhythm-characteristics.png){: style="width: 50%;" }
+        ![rhythm-characteristics](images/rhythm-characteristics.png){: style="width: 50%;" }
 
         **Definition of rhythm characteristics.** The [MESOR](#mesor) is a rhythm-adjusted mean; the double amplitude (2A) is a measure of the extent of predictable change within a cycle; the [acrophase](#acrophase) is a measure of the timing of overall high values recurring in each cycle, expressed in (negative) degrees in relation to a reference time set to 0°, with 360° equated to the period; and the [period](#period) is the duration of one cycle. &copy; Halberg Chronobiology Center.
         

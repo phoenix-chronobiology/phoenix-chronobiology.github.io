@@ -2,9 +2,9 @@
 
 ## Overview
 
-**{{ config.site_name }}** underpin an emerging healthcare program that uses [chronobiologic](../glossary#chronobiology) techniques to prevent [strokes](../glossary#stroke) and other effects of cardiac disease.
+**{{ config.site_name }}** underpin an emerging healthcare program that uses [chronobiologic](../../glossary#chronobiology) techniques to prevent [strokes](../glossary#stroke) and other effects of cardiac disease.
 
-The system uses blood pressure measurements taken approximately every 30 minutes, day and night, in ambulatory fashion. Ideally, seven days of data are available. This data is analyzed with **[cosinor](cosinor.md)** and **[cumulative-sum](cusum.md)** algorithms.
+The system uses blood pressure measurements taken approximately every 30 minutes, day and night, in ambulatory fashion. Ideally, seven days of data are available. This data is analyzed with **[cosinor](../../algorithms/cosinor.md)** and **[cumulative-sum](../../algorithms/cusum.md)** algorithms.
 
 The results of an analysis is available directly to the patient, and when appropriate, to the patient’s healthcare provider. Analysis solutions are automated and easy to use.
 
@@ -53,7 +53,6 @@ Inputs: blood pressure measurements taken approximately every 30 minutes, day an
 
 
 ## Use cases
-
 
 The mechanism for detecting high risk of stroke and guiding treatment requires “continuous” blood pressure measurements; blood pressure measurements taken approximately every 30 minutes, day and night, in ambulatory fashion, are analyzed via cosinor and cumulative sum.
 

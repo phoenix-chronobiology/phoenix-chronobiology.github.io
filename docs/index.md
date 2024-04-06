@@ -39,7 +39,10 @@ The Projects operate on [open source principles](https://opensource.org/osd/){: 
 
 2. **Develop a means for chronobiological analysis of collected blood pressure measurements**&emsp;
 
-    See the [Biorhythm Analytics Platform project](biorhythm-platform/).
+    See the:
+    
+    * [Biorhythm Analysis Algorithms project](algorityms/)
+    * [Biorhythm Analytics Platform project](biorhythm-platform/)
 
 3. Be a learning community
 

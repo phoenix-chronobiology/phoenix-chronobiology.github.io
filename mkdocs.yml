@@ -12,12 +12,14 @@ copyright: <p xmlns:cc="http://creativecommons.org/ns#" ><a rel="cc:attributionU
 nav:
   - The Phoenix Chronobiology Projects: index.md
   - ABPM: abpm/index.md
+  - Algorithms:
+      - Algorithms: algorithms/index.md
+      - COSINOR analysis: algorithms/cosinor.md
+      - CUSUM analysis: algorithms/cusum.md
   - Biorhythm Platform:
       - Biorhythm Platform: biorhythm-platform/index.md
       - Requirements:
           - Requirements: biorhythm-platform/requirements/index.md
-          - COSINOR analysis: biorhythm-platform/requirements/cosinor.md
-          - CUSUM analysis: biorhythm-platform/requirements/cusum.md
           - Design goals: biorhythm-platform/requirements/design-goals.md
           - Quality goals: biorhythm-platform/requirements/quality-goals.md
       - Architecture:
@@ -37,10 +39,8 @@ nav:
       - Macros info: about/macros-info.md
 
 not_in_nav: |
-  snippets/chronobiology-glossary.md
   snippets/hero-image.md
   snippets/hide-title.md
-  snippets/swe-glossary.md
 
 # BUILD DIRECTORIES
 theme:
