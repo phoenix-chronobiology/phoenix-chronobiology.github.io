@@ -2,11 +2,11 @@
 site_name: !ENV [SITE_NAME, 'The Phoenix Chronobiology Projects']
 site_author: Christopher Adams
 
-repo_url: https://github.com/phoenix-chronobiology/phoenix-biorhythm-platform
+repo_url: https://github.com/phoenix-chronobiology/phoenix
 
 edit_uri: null
 
-copyright: <p xmlns:cc="http://creativecommons.org/ns#" ><a rel="cc:attributionURL" href="https://phoenix-chronobiology.github.io/phoenix-biorhythm-platform/">This work</a> &copy; 2024 by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/phoenix-chronobiology" target="_blank">CHRISTOPHER ADAMS</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"> &boxbox;</a></p>
+copyright: <p xmlns:cc="http://creativecommons.org/ns#" ><a rel="cc:attributionURL" href="https://phoenix-chronobiology.github.io/phoenix/">This work</a> &copy; 2024 by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/phoenix-chronobiology" target="_blank">CHRISTOPHER ADAMS</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"> &boxbox;</a></p>
 
 # DOCUMENTATION LAYOUT
 nav:
