@@ -35,7 +35,11 @@ The Projects operate on [open source principles](https://opensource.org/osd/){: 
     * Easy to use
     * Collects a week of blood pressure measurements
 
-2. **Develop a means for chronobiological analysis of collected blood pressure measurements**&emsp;(<span style="color: indigo; font-style: italic;">:material-arrow-left-circle: Focus of this site</span>)
+    See the [Ambulatory Blood Pressure Monitor project](abpm/).
+
+2. **Develop a means for chronobiological analysis of collected blood pressure measurements**&emsp;
+
+    See the [Biorhythm Analytics Platform project](biorhythm-platform/).
 
 3. Be a learning community
 

@@ -8,6 +8,6 @@
     </object>
   </div>
   <p class="hero-tagline">
-    A platform for chronobiometric analysis
+    The chronobiology of cardiovascular health
   </p>
 </div>

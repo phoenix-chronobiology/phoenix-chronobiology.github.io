@@ -42,18 +42,33 @@ For full documentation, visit [mkdocs.org](https://www.mkdocs.org).
 mkdocs.yml              # The configuration file
 docs/
     index.md            # The documentation homepage
-    glossary.md
     about/
-    architecture/
+        index.md
+        ...
+    abpm/               # ambulatory blood pressure monitor project
+        index.md
+        ...
+    biorhythm-platform/ # biorhythm analysis platform project
+        index.md
+        architecture/
+            index.md
+            ...
+        requirements/
+            index.md
+            ...
     images/
     javascripts/
-    library/            # Informative and instructive articles
+    library/
+        index.md
+        ...
     privacy-security/
-    requirements/
+        index.md
+        ...
     snippets/
     stylesheets/
+    glossary.md
+    ...                 # Other markdown pages and other files
 ```
-
 ### Theme
 
 [Material for MkDocs](https://squidfunk.github.io/mkdocs-material)
