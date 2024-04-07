@@ -698,9 +698,9 @@ hide:
 <span id="technician">technician, medical office technician</span>
 : [definition needed]
 
-<span id="triangular matrix">triangular matrix</span>
+<span id="triangular-matrix">triangular matrix</span>
 : [linear and multilinear algebra]; [matrix theory]
-: See also [coefficient matrix](#coefficient-0matrix), [orthogonal matrix](#orthogonal-matrix).
+: See also [coefficient matrix](#coefficient-matrix), [orthogonal matrix](#orthogonal-matrix).
 
 ---
 ### U
