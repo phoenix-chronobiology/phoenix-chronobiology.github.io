@@ -33,7 +33,7 @@ nav:
   - Library:
      - Library: library/index.md
      - Old Project Archive &boxbox;: https://phoenix-chronobiology.github.io/hyde/
-  - Glossary: glossary.md
+  - Glossary: glossary/index.md
   - About the site:
       - About the site: about/index.md
       - Macros info: about/macros-info.md

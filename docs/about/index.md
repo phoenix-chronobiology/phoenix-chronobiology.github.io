@@ -31,29 +31,38 @@ docs/
     index.md            # The documentation homepage
     about/
         index.md
+        images/             # subproject-specific images
         ...
-    abpm/               # ambulatory blood pressure monitor project
+    abpm/               # ambulatory blood pressure monitor subproject
         index.md
+        images/             # subproject-specific images
+       ...
+    algorithms/         # biorhythm analysis algorithms subproject
+        index.md
+        images/             # subproject-specific images
         ...
-    biorhythm-platform/ # biorhythm analysis platform project
+    biorhythm-platform/ # biorhythm analysis platform subproject
         index.md
+        images/             # subproject-specific images
         architecture/
+            index.md
+            ...
+        privacy-security/
             index.md
             ...
         requirements/
             index.md
             ...
-    images/
-    javascripts/
     library/
         index.md
         ...
-    privacy-security/
+    glossary/
         index.md
-        ...
+        images/             # glossary-specific images
+    images/             # program-general images, icons and clip art     
+    javascripts/
     snippets/
     stylesheets/
-    glossary.md
     ...                 # Other markdown pages and other files
 ```
 
@@ -69,9 +78,9 @@ See [macros info](macros-info.md)
 
 Material for MkDocs directly integrates with [Google Fonts](https://fonts.google.com/){: target="_blank" }. All fonts are taken from that collection.
 
-Body text and titles are set in ![Cabin](../images/cabin.jpg){: alt="cabin" style="vertical-align: bottom; height: 32px;" }, a nonserif font. 
+Body text and titles are set in ![Cabin](images/cabin.jpg){: alt="cabin" style="vertical-align: bottom; height: 32px;" }, a nonserif font. 
 
-Code samples are set in ![Ubuntu Mono](../images/ubuntu-mono.jpg){: alt="Ubuntu Mono" style="vertical-align: bottom; height: 32px;" }, a nonserif, monospace font.
+Code samples are set in ![Ubuntu Mono](images/ubuntu-mono.jpg){: alt="Ubuntu Mono" style="vertical-align: bottom; height: 32px;" }, a nonserif, monospace font.
 
 For clients who do not have these fonts, the style sheets specify some standard alternatives.
 

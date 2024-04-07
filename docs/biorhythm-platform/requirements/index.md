@@ -2,7 +2,7 @@
 
 ## Overview
 
-**{{ config.site_name }}** underpin an emerging healthcare program that uses [chronobiologic](../../glossary#chronobiology) techniques to prevent [strokes](../glossary#stroke) and other effects of cardiac disease.
+**{{ config.site_name }}** underpin an emerging healthcare program that uses [chronobiologic](../../glossary/#chronobiology) techniques to prevent [strokes](../../glossary/#stroke) and other effects of cardiac disease.
 
 The system uses blood pressure measurements taken approximately every 30 minutes, day and night, in ambulatory fashion. Ideally, seven days of data are available. This data is analyzed with **[cosinor](../../algorithms/cosinor.md)** and **[cumulative-sum](../../algorithms/cusum.md)** algorithms.
 
@@ -32,14 +32,14 @@ The public-facing websites contain:
 !!! bug
     The diagrams in this article are out-of-date but are included as placeholders to organize the article.
 
-![Context Diagram](../../images/context-diagram.png)
+![Context Diagram](../images/context-diagram.png)
 
 Inputs: blood pressure measurements taken approximately every 30 minutes, day and night, in ambulatory fashion.
 
 
 ## Actors
 
-![Actors](../../images/requirements-actors-model.png)
+![Actors](../images/requirements-actors-model.png)
 
 ### Actor profile table
 

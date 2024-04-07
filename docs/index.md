@@ -10,7 +10,7 @@ hide:
 
 **{{ config.site_name }}** envision:
 
-1. Using [chronobiologic](glossary#chronobiology) principles (timing according to rhythms) for assessing cardiovascular health, detecting [pre-disease](glossary#predisease) early, and optimizing treatment schedules, in order to reduce the number of people who die of preventable heart attacks and strokes.
+1. Using [chronobiologic](glossary/#chronobiology) principles (timing according to rhythms) for assessing cardiovascular health, detecting [pre-disease](glossary/#predisease) early, and optimizing treatment schedules, in order to reduce the number of people who die of preventable heart attacks and strokes.
 2. Understanding, for health surveillance and maintenance, how blood pressure and heart rate vary in response to stimuli in everyday life.
 
 ## The Phoenix Community
