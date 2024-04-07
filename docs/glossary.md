@@ -129,7 +129,7 @@ hide:
     1. The scientific study of the effect of time on living systems. (source: Dorlands)
     1. A field of science that examines periodic (cyclic) phenomena in living organisms. (source: [Wikipedia](http://en.wikipedia.org/wiki/Chronobiology){: target="_blank" })
     1. The science of investigating and objectively quantifying phenomena and mechanisms of the biologic time structure, including the rhythmic manifestations of life. (source: [AAMC](http://www.aamcc.net/glossary.htm){: target="_blank" })
-    1. _n_. The scientific study of biological rhythms. _adj_. = chronobiological. (source: [circadian.org](http://www.circadian.org/dictionary.html){: target="_blank" })
+    1. _n_. The scientific study of biological rhythms. // _adj_. = chronobiological. // (source: [circadian.org](http://www.circadian.org/dictionary.html){: target="_blank" })
 
 
 <span id="chronobiometry">chronobiometry</span>
@@ -259,7 +259,7 @@ hide:
 <span id="decreased-heart-rate-variability">decreased heart rate variability</span>
 : See [deficient heart rate variability](#deficient-heart-rate-variability)
 
-<span id="deficient-heart-rate-variability">decreased heart rate variability (DHRV)</span>
+<span id="deficient-heart-rate-variability">deficient heart rate variability (DHRV)</span>
 : [chronomedicine] a [standard deviation](#standard-deviation) of [heart rate](#heart-rate) (determined around the clock for 7-days at 1-hour or shorter intervals) below the threshold of 7 beats per minute, a criterion to be further qualified for gender and age.
 
 <span id="desynchronization">desynchronization</span>
