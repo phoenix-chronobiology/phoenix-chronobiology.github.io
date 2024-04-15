@@ -40,6 +40,7 @@ jobs:
           pip install mkdocs-macros-plugin
           pip install mkdocs-git-revision-date-localized-plugin
           pip install mkdocs-link-marker
+          pip install mkdocs-exclude
 
       - name: Build documentation
         run: |

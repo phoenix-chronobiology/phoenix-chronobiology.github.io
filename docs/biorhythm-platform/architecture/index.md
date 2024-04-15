@@ -3,14 +3,9 @@
 
 [def]: ../../images/underconstruction.svg
 
-!!! bug
-    The diagrams in this article are out-of-date but included as placeholders to organize the article.
+## Conceptual Architecture
 
-## Architecture Viewpoint
-!!! bug
-    Refactor for microservice architecture rather than a service bus architecture.
-
-![Architecture Viewpoint](../images/engineering-viewpoint.png)
+![Architecture Viewpoint](../images/conceptual-architecture.png)
 
 ## Applications
 
