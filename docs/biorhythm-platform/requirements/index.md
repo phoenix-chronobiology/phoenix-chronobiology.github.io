@@ -46,6 +46,7 @@ Inputs: blood pressure measurements taken approximately every 30 minutes, day an
 | Actor | Profile: Background and Skills |
 | ----- | ------------------------------ |
 | patient | May be sick or may want to know health status.<br><br>May vary between “Does not want to be bothered” and wanting biofeedback to modify behavior |
+| self&#8209;care&nbsp;subject | Similar to a _patient_ but neither under the care of a _clinician_ nor in an institutional setting |
 | specialist | a physician<br><br>Called for help by primary care physician |
 | clinician | Deals directly with patients<br><br>May access medical records<br><br>May be primary care physician, secondary care physician (specialist), physician’s assistant, registered nurse, nursing assistant, certified medical assistant |
 | physician | a clinician<br><br>makes clinical decisions<br><br>diagnoses patient |

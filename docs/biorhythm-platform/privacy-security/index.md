@@ -10,6 +10,10 @@ Security
 Privacy vs. Security
 : Data privacy is focused on the use and governance of personal data &mdash; things like putting policies in place to ensure that consumers’ personal information is being collected, shared and used in appropriate ways. Security focuses more on protecting data from malicious attacks and the exploitation of stolen data for profit. While security is necessary for protecting data, it’s not sufficient for addressing privacy. [^iapp]
 
+## Person Identity Management
+
+![Person Identity Management](../images/person-identity-management.png)
+
 ## Core Principles
 
 !!! quote "Barath Raghavan and Bruce Schneier [^raghavan-schneier]"

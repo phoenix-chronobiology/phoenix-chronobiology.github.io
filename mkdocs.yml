@@ -22,8 +22,7 @@ nav:
           - Requirements: biorhythm-platform/requirements/index.md
           - Design goals: biorhythm-platform/requirements/design-goals.md
           - Quality goals: biorhythm-platform/requirements/quality-goals.md
-      - Architecture:
-          - Architecture: biorhythm-platform/architecture/index.md
+      - Conceptual Architecture: biorhythm-platform/conceptual-architecture.md
       - Privacy &amp; security:
           - Privacy &amp; security: biorhythm-platform/privacy-security/index.md
           - Security requirements: biorhythm-platform/privacy-security/security-requirements.md

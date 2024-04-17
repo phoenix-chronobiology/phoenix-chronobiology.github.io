@@ -5,6 +5,9 @@ hide:
 
 ### A
 
+<span id="abpm">ABPM</span>
+: Initialism of [ambulatory blood pressure monitor](#ambulatory-blood-pressure-monitor).
+
 <span id="acrometron">acrometron</span>
 : [statistics]
 : The measure of the highest predicted value of a rhythm.
@@ -34,6 +37,11 @@ hide:
 <span id="adl">ADL</span>
 : [medicine]
 : See [activity of daily living](#activity-of-daily-living).
+
+<span id="ambulatory-blood-pressure-monitor">ambulatory blood pressure monitor (ABPM)</span>
+: A small device that a person can carry or wear for measuring [blood pressure](#blood-pressure) at regular intervals throughout the day and night.
+: Contrast with _home blood pressure monitor (HPBM)_.
+: See [Wikipedia](https://en.wikipedia.org/wiki/Ambulatory_blood_pressure){: target="_blank" }.
 
 <span id="amplitude">amplitude</span>
 : [statistics]
@@ -85,7 +93,7 @@ hide:
 : Blood pressure is expressed as relative to the ambient atmospheric pressure. Its values are universally stated in millimeters of mercury (mmHg).
 : See also [systolic blood pressure](#systolic-blood-pressure) and [diastolic blood pressure](#diastolic-blood-pressure).
 
-: (source: [Wikipedia](http://en.wikipedia.org){: target="_blank" })
+: (source: [Wikipedia](https://en.wikipedia.org/wiki/Blood_pressure){: target="_blank" })
 
 <span id="blood-pressure-excess">blood pressure excess</span>
 : See [HBI](#hbi).
@@ -287,13 +295,13 @@ hide:
 <span id="diastolic">diastolic</span>
 : [physiology]
 : _adj_. Of or pertaining to diastole.
-: [blood pressure] Of or pertaining to the lowest, nadir, pressure within the blood stream occurring in between heart beats.
+: [[blood pressure](#blood-pressure)] Of or pertaining to the lowest, nadir, pressure within the blood stream occurring in between heart beats.
 : Contrast with [systolic](#systolic).
 
 
 <span id="diastolic-blood-pressure">diastolic blood pressure</span>
 : [physiology]
-: The lowest blood pressure in the arteries during the cardiac cycle, during the resting phase of the heart
+: The lowest [blood pressure](#blood-pressure) in the arteries during the cardiac cycle, during the resting phase of the heart
 : Contrast with [systolic blood pressure](#systolic-blood-pressure).
 
 <span id="disease">disease</span>
@@ -688,8 +696,8 @@ hide:
 : Contrast with [diastolic](#diastolic).
 
 <span id="systolic-blood-pressure">systolic blood pressure</span>
-: [physiology
-: the peak blood pressure in the arteries during the cardiac cycle, during the contraction phase of the heart
+: [physiology]
+: the peak [blood pressure](#blood-pressure) in the arteries during the cardiac cycle, during the contraction phase of the heart
 : Contrast with [diastolic blood pressure](#diastolic-blood-pressure).
 
 ---
