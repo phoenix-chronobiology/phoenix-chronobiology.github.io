@@ -3,6 +3,16 @@
 
 [def]: ../../images/underconstruction.svg
 
+!!! bug "Issues"
+    Multiple instances must be supported for each of:
+
+    * Monitor Registry
+    * Acquired Data Archive
+    * Report Archive
+    * Profile Archive
+
+    Multiple distribution points for each application must be supported.
+
 ![Architecture Viewpoint](../images/conceptual-architecture.png)
 
 ## Applications
@@ -10,6 +20,8 @@
 ![Applications](../images/applications.png){: .thumbnail-right }
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non ligula vitae metus rhoncus tempus sit amet in neque. Curabitur magna justo, lacinia nec placerat sit amet, placerat eu dui. Duis pulvinar, purus in tristique facilisis, metus mauris lobortis magna, et gravida ante massa non sem. Pellentesque ac sem ut purus aliquet consectetur. Nam non dignissim tellus, vel scelerisque urna. Integer eu nibh nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque et egestas magna. Duis accumsan nulla et aliquet lobortis. Nam cursus turpis sollicitudin, efficitur urna vitae, fermentum diam. Cras mi elit, dignissim at elit et, scelerisque accumsan lacus. Quisque dignissim finibus faucibus. Sed facilisis, quam non ornare dignissim, diam nisl gravida nisi, eget porttitor lacus turpis et elit.
+
+Mauris commodo elit a odio consequat lobortis. Morbi porttitor risus sed imperdiet mollis. Aenean nunc tortor, fringilla sit amet nulla congue, tempus vestibulum risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed varius, magna vitae dignissim lobortis, quam purus maximus diam, in interdum sapien lacus at dui. Morbi iaculis et velit quis ultrices. Proin et dolor diam. Mauris pulvinar tellus elit, ac ornare dui finibus euismod. Nam a varius augue, id fermentum mauris. Nullam pretium enim ut nulla dapibus, fringilla scelerisque erat lobortis. Sed vel nulla tincidunt, varius justo vel, efficitur nulla. Integer scelerisque arcu sem. Quisque commodo vitae mi sit amet rhoncus. Sed ac libero vestibulum, luctus ante eget, pellentesque est.
 
 ## Presentation Services
 
@@ -29,9 +41,9 @@ For what we mean by _monitors_, see [Wikipedia](https://en.wikipedia.org/wiki/Mo
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non ligula vitae metus rhoncus tempus sit amet in neque. Curabitur magna justo, lacinia nec placerat sit amet, placerat eu dui. Duis pulvinar, purus in tristique facilisis, metus mauris lobortis magna, et gravida ante massa non sem. Pellentesque ac sem ut purus aliquet consectetur. Nam non dignissim tellus, vel scelerisque urna. Integer eu nibh nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque et egestas magna. Duis accumsan nulla et aliquet lobortis. Nam cursus turpis sollicitudin, efficitur urna vitae, fermentum diam. Cras mi elit, dignissim at elit et, scelerisque accumsan lacus. Quisque dignissim finibus faucibus. Sed facilisis, quam non ornare dignissim, diam nisl gravida nisi, eget porttitor lacus turpis et elit.
 
-## Data Acquisition
+## Observations and Time Series
 
-![Data Acquisition](../images/data-acquisition.png){: .thumbnail-right }
+![Observations and Time Series](../images/observations.png){: .thumbnail-right }
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non ligula vitae metus rhoncus tempus sit amet in neque. Curabitur magna justo, lacinia nec placerat sit amet, placerat eu dui. Duis pulvinar, purus in tristique facilisis, metus mauris lobortis magna, et gravida ante massa non sem. Pellentesque ac sem ut purus aliquet consectetur. Nam non dignissim tellus, vel scelerisque urna. Integer eu nibh nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque et egestas magna. Duis accumsan nulla et aliquet lobortis. Nam cursus turpis sollicitudin, efficitur urna vitae, fermentum diam. Cras mi elit, dignissim at elit et, scelerisque accumsan lacus. Quisque dignissim finibus faucibus. Sed facilisis, quam non ornare dignissim, diam nisl gravida nisi, eget porttitor lacus turpis et elit.
 
