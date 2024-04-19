@@ -7,7 +7,7 @@
     Multiple instances must be supported for each of:
 
     * Monitor Registry
-    * Acquired Data Archive
+    * Observations Archive
     * Report Archive
     * Profile Archive
 
