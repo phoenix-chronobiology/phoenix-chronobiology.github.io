@@ -20,8 +20,6 @@ nav:
       - Biorhythm Platform: biorhythm-platform/index.md
       - Requirements:
           - Requirements: biorhythm-platform/requirements/index.md
-          - Design goals: biorhythm-platform/requirements/design-goals.md
-          - Quality goals: biorhythm-platform/requirements/quality-goals.md
       - Conceptual Architecture: biorhythm-platform/conceptual-architecture.md
       - Privacy &amp; security:
           - Privacy &amp; security: biorhythm-platform/privacy-security/index.md
@@ -30,8 +28,10 @@ nav:
           - Threat assessment: biorhythm-platform/privacy-security/threat-assessment.md
           - Attack surface analysis: biorhythm-platform/privacy-security/attack-surface-analysis.md
   - Library:
-     - Library: library/index.md
-     - Old Project Archive &boxbox;: https://phoenix-chronobiology.github.io/hyde/
+      - Library: library/index.md
+      - Design goals: library/design-goals.md
+      - Quality goals: library/quality-goals.md
+      - Old Project Archive &boxbox;: https://phoenix-chronobiology.github.io/hyde/
   - Glossary: glossary/index.md
   - About the site:
       - About the site: about/index.md

@@ -1,3 +1,5 @@
+# About Quality Goals
+
 ![Under Construction](../../images/underconstruction.svg)
 
 <span id="qg_Func_Correctness">Functionality &gt; Correctness</span>

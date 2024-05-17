@@ -2,9 +2,13 @@
 
 ## Overview
 
-**{{ config.site_name }}** underpin an emerging healthcare program that uses [chronobiologic](../../glossary/#chronobiology) techniques to prevent [strokes](../../glossary/#stroke) and other effects of cardiac disease.
+The **Biorhythm Analytics Platform** employs a [canonical data model](https://en.wikipedia.org/wiki/Canonical_model){: target="_blank" } of ambulatory blood pressure monitors and their measurements, to decouple the system from specific monitors.
 
-The system uses blood pressure measurements taken approximately every 30 minutes, day and night, in ambulatory fashion. Ideally, seven days of data are available. This data is analyzed with **[cosinor](../../algorithms/cosinor.md)** and **[cumulative-sum](../../algorithms/cusum.md)** algorithms.
+The system uses blood pressure measurements taken approximately every 30 minutes, day and night, in ambulatory fashion. Ideally, seven days of data are available.
+
+The system can stitch batches of data into a continuous sequence, to provide a health history for an individual.
+
+The imported and sequenced data is analyzed with **[cosinor](../../algorithms/cosinor.md)** and **[cumulative-sum](../../algorithms/cusum.md)** algorithms.
 
 The results of an analysis is available directly to the patient, and when appropriate, to the patient’s healthcare provider. Analysis solutions are automated and easy to use.
 
@@ -12,9 +16,9 @@ The associated databases contain physiological data about large numbers of indiv
 
 The solution is global in scope. Its capability is widely distributed and fronted by multi-linguage websites.
 
-The solution employs a zero-trust security model, with defense in depth.
+The solution employs a [zero-trust security model](https://en.wikipedia.org/wiki/Zero_trust_security_model){: target="_blank" }, with [defense in depth](https://en.wikipedia.org/wiki/Defense_in_depth_(computing)){: target="_blank" }.
 
-The solution treats privacy as paramount, giving the patient control over who has access to the patient's data.
+The solution treats [privacy](https://en.wikipedia.org/wiki/Privacy){: target="_blank" } as paramount, giving the patient control over who has access to the patient's data.
 
 The public-facing websites contain:
 
@@ -22,15 +26,10 @@ The public-facing websites contain:
 * Libraries of reference materials for different audiences (physician, general public, student)
 * Lists of commercially-available ambulatory blood pressure monitors
 
-!!! question "Proposal for and Concern About Social Networks"
-    The solution previously envisioned connections to popular social networking websites as means to motivate members of the general public to use the system and disseminate information that they find to be trustworthy and popular.  The social networking mechanisms would be designed to allow the general public to collaborate and discover individualized treatments that are more effective than those that have passed one-size-fits-all style clinical trials, and would allow comparative analyses of individual and population based physiological and psychological data, starting with but not limited to their own blood pressure.
-
-    Links to social networks are problematic because they would open vulnerabilities to privacy and security.
-
 ## Context
 
 !!! bug
-    The diagrams in this article are out-of-date but are included as placeholders to organize the article.
+The diagrams in this article are out-of-date but are included as placeholders to organize the article.
 
 ![Context Diagram](../images/context-diagram.png)
 
@@ -68,7 +67,8 @@ The website will provide the reports and data access mechanisms that meet approp
 ## Required attributes
 
 !!! bug
-    Reconcile the following with [Design goals](design-goals.md) and [Quality goals](quality-goals.md).
+
+    Reconcile the following with [Design goals](../../library/design-goals.md) and [Quality goals](../../library/quality-goals.md).
 
 Inexpensive
 : Free and open source software [^foss]
@@ -84,24 +84,24 @@ Extensible &mdash; highly recomposable
 Scalable
 : Ready to cope with volume increases due to:
 
-    - Wearers
-    - Acquired data
-    - Analysis requests
+- Wearers
+- Acquired data
+- Analysis requests
 
 Secure
 : The design incorporates:
 
-    * Threat modeling [^threat]
-    * Principle of least privilege [^polp]
-    * Defense in depth &mdash; zero trust [^zero]
-    * Secure defaults
-    * Person identity management
+* Threat modeling [^threat]
+* Principle of least privilege [^polp]
+* Defense in depth &mdash; zero trust [^zero]
+* Secure defaults
+* Person identity management
 
 Maintains privacy of data subject
 : 1. Wearer owns measurements of the wearer's body
-  1. Caregivers are custodians
-  1. System operators are custodians
-  1. Control belongs to the user
+1. Caregivers are custodians
+1. System operators are custodians
+1. Control belongs to the user
 
 [^foss]: Wikipedia. "Free and open-source software". Website, accessed 8 March 2024. [https://en.wikipedia.org/wiki/Free_and_open-source_software](https://en.wikipedia.org/wiki/Free_and_open-source_software){: target="_blank" }.
 
@@ -110,3 +110,11 @@ Maintains privacy of data subject
 [^polp]: Wikipedia. "Priciple of Least Privelege". Website, accessed 8 March 2024. [https://en.wikipedia.org/wiki/Principle_of_least_privilege](https://en.wikipedia.org/wiki/Principle_of_least_privilege){: target="_blank" }.
 
 [^zero]: Wikipedia. "Zero Trust Security Model". Website, accessed 8 March 2024. [https://en.wikipedia.org/wiki/Zero_trust_security_model](https://en.wikipedia.org/wiki/Zero_trust_security_model){: target="_blank" }.
+
+## Exclusions
+
+### Social networks
+
+The solution previously envisioned connections to popular [social networking websites](https://en.wikipedia.org/wiki/Social_networking_service){: target="_blank" } as means to motivate members of the general public to use the system and disseminate information that they find to be trustworthy and popular.  The social networking mechanisms would be designed to allow the general public to collaborate and discover individualized treatments that are more effective than those that have passed one-size-fits-all style clinical trials, and would allow comparative analyses of individual and population based physiological and psychological data, starting with but not limited to their own blood pressure.
+
+Links to social networks are problematic because they would open vulnerabilities to privacy and security.
