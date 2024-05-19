@@ -1,5 +1,3 @@
-![Under Construction](../../images/underconstruction.svg)
-
 ## Overview
 
 The **Biorhythm Analytics Platform** employs a [canonical data model](https://en.wikipedia.org/wiki/Canonical_model){: target="_blank" } of ambulatory blood pressure monitors and their measurements, to decouple the system from specific monitors.
