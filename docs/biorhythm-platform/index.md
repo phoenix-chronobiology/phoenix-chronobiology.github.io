@@ -1,7 +1,5 @@
 # Biorhythm Analytics Platform
 
-![Coming Soon](../images/underconstruction.svg)
-
 **{{ config.site_name }}** underpin an emerging healthcare program that uses [chronobiologic](../../glossary/#chronobiology) techniques to prevent [strokes](../../glossary/#stroke) and other effects of cardiac disease.
 
 The system uses blood pressure measurements taken approximately every 30 minutes, day and night, in ambulatory fashion. Ideally, seven days of data are available. The projects' work on ambulatory blood pressure monitors is discussed in [ABPM](../../abpm/).

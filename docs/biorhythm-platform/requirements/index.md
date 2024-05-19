@@ -1,3 +1,5 @@
+![Coming Soon](../../images/underconstruction.svg)
+
 ## Overview
 
 The **Biorhythm Analytics Platform** employs a [canonical data model](https://en.wikipedia.org/wiki/Canonical_model){: target="_blank" } of ambulatory blood pressure monitors and their measurements, to decouple the system from specific monitors.
@@ -26,6 +28,10 @@ The public-facing websites contain:
 
 ## Context
 
+!!! bug
+
+    Need to label and describe the data flows show in blue below.
+
 ![Context Diagram](../images/context-diagram.png)
 
 Inputs: blood pressure measurements taken approximately every 30 minutes, day and night, in ambulatory fashion.
@@ -48,6 +54,10 @@ Inputs: blood pressure measurements taken approximately every 30 minutes, day an
 
 
 ## Use cases
+
+!!! bug
+
+    Transform the following into a more formal set of [use cases](https://en.wikipedia.org/wiki/Use-case_analysis){: target="_blank" }.
 
 The mechanism for detecting high risk of stroke and guiding treatment requires “continuous” blood pressure measurements; blood pressure measurements taken approximately every 30 minutes, day and night, in ambulatory fashion, are analyzed via cosinor and cumulative sum.
 
