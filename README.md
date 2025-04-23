@@ -122,6 +122,7 @@ The actions are triggered by a `git push` to the `main` branch.
     pip install mkdocs-macros-plugin
     pip install mkdocs-git-revision-date-localized-plugin
     pip install mkdocs-link-marker
+    pip install mkdocs-exclude
     ```
 
 1. Build documentation
