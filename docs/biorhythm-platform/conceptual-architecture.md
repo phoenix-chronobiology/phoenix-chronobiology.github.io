@@ -1,7 +1,7 @@
 
 ![Under Construction][def]
 
-[def]: ../../images/underconstruction.svg
+[def]: ../images/underconstruction.svg
 
 !!! bug "Issues"
     Multiple instances must be supported for each of:
@@ -13,11 +13,11 @@
 
     Multiple distribution points for each application must be supported.
 
-![Architecture Viewpoint](../images/conceptual-architecture.png)
+![Architecture Viewpoint](images/conceptual-architecture.png)
 
 ## Applications
 
-![Applications](../images/applications.png){: .thumbnail-right }
+![Applications](images/applications.png){: .thumbnail-right }
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non ligula vitae metus rhoncus tempus sit amet in neque. Curabitur magna justo, lacinia nec placerat sit amet, placerat eu dui. Duis pulvinar, purus in tristique facilisis, metus mauris lobortis magna, et gravida ante massa non sem. Pellentesque ac sem ut purus aliquet consectetur. Nam non dignissim tellus, vel scelerisque urna. Integer eu nibh nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque et egestas magna. Duis accumsan nulla et aliquet lobortis. Nam cursus turpis sollicitudin, efficitur urna vitae, fermentum diam. Cras mi elit, dignissim at elit et, scelerisque accumsan lacus. Quisque dignissim finibus faucibus. Sed facilisis, quam non ornare dignissim, diam nisl gravida nisi, eget porttitor lacus turpis et elit.
 
@@ -25,7 +25,7 @@ Mauris commodo elit a odio consequat lobortis. Morbi porttitor risus sed imperdi
 
 ## Presentation Services
 
-![Presentation Services](../images/presentation-services.png){: .thumbnail-right }
+![Presentation Services](images/presentation-services.png){: .thumbnail-right }
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus fringilla porta consequat. Maecenas accumsan non massa sit amet luctus. Ut at dui quis orci finibus volutpat. Nullam a ante rhoncus, faucibus sem in, sodales mi. Nullam ultrices vulputate hendrerit. In dignissim, nibh vitae gravida fermentum, risus mauris gravida tellus, vel rutrum quam elit nec sapien. Vestibulum non dui eleifend, viverra ex nec, fringilla ipsum. Aliquam vestibulum convallis ante eu molestie. Integer elementum interdum nisl nec cursus. Nulla ultrices nisi sed ligula scelerisque, a porttitor quam pharetra. Integer non risus dui. Nullam nec pharetra urna. Ut vel erat justo. Nam sit amet risus semper, molestie eros quis, tempus odio. Suspendisse vel tristique massa, et pellentesque eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
 
@@ -35,7 +35,7 @@ Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac tu
 
 ## Monitors
 
-![Monitors](../images/monitors.png){: .thumbnail-right }
+![Monitors](images/monitors.png){: .thumbnail-right }
 
 For what we mean by _monitors_, see [Wikipedia](https://en.wikipedia.org/wiki/Monitoring_(medicine)#Medical_monitor){: target="_blank" }
 
@@ -43,18 +43,18 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non ligula vitae met
 
 ## Observations and Time Series
 
-![Observations and Time Series](../images/observations.png){: .thumbnail-right }
+![Observations and Time Series](images/observations.png){: .thumbnail-right }
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non ligula vitae metus rhoncus tempus sit amet in neque. Curabitur magna justo, lacinia nec placerat sit amet, placerat eu dui. Duis pulvinar, purus in tristique facilisis, metus mauris lobortis magna, et gravida ante massa non sem. Pellentesque ac sem ut purus aliquet consectetur. Nam non dignissim tellus, vel scelerisque urna. Integer eu nibh nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque et egestas magna. Duis accumsan nulla et aliquet lobortis. Nam cursus turpis sollicitudin, efficitur urna vitae, fermentum diam. Cras mi elit, dignissim at elit et, scelerisque accumsan lacus. Quisque dignissim finibus faucibus. Sed facilisis, quam non ornare dignissim, diam nisl gravida nisi, eget porttitor lacus turpis et elit.
 
 ## Analytics
 
-![Analytics](../images/analytics.png){: .thumbnail-right }
+![Analytics](images/analytics.png){: .thumbnail-right }
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non ligula vitae metus rhoncus tempus sit amet in neque. Curabitur magna justo, lacinia nec placerat sit amet, placerat eu dui. Duis pulvinar, purus in tristique facilisis, metus mauris lobortis magna, et gravida ante massa non sem. Pellentesque ac sem ut purus aliquet consectetur. Nam non dignissim tellus, vel scelerisque urna. Integer eu nibh nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque et egestas magna. Duis accumsan nulla et aliquet lobortis. Nam cursus turpis sollicitudin, efficitur urna vitae, fermentum diam. Cras mi elit, dignissim at elit et, scelerisque accumsan lacus. Quisque dignissim finibus faucibus. Sed facilisis, quam non ornare dignissim, diam nisl gravida nisi, eget porttitor lacus turpis et elit.
 
 ## Modeling and Profiling
 
-![Modeling &amp; Profiling](../images/modeling-and-profiling.png){: .thumbnail-right }
+![Modeling &amp; Profiling](images/modeling-and-profiling.png){: .thumbnail-right }
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non ligula vitae metus rhoncus tempus sit amet in neque. Curabitur magna justo, lacinia nec placerat sit amet, placerat eu dui. Duis pulvinar, purus in tristique facilisis, metus mauris lobortis magna, et gravida ante massa non sem. Pellentesque ac sem ut purus aliquet consectetur. Nam non dignissim tellus, vel scelerisque urna. Integer eu nibh nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque et egestas magna. Duis accumsan nulla et aliquet lobortis. Nam cursus turpis sollicitudin, efficitur urna vitae, fermentum diam. Cras mi elit, dignissim at elit et, scelerisque accumsan lacus. Quisque dignissim finibus faucibus. Sed facilisis, quam non ornare dignissim, diam nisl gravida nisi, eget porttitor lacus turpis et elit.

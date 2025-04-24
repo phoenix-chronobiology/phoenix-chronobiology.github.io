@@ -1,6 +1,6 @@
 # About Design Goals
 
-![Under Construction](../../images/underconstruction.svg)
+![Under Construction](../images/underconstruction.svg)
 
 <span id="dg_correctness">Correctness</span>
 : This design correctly matches the given requirements.

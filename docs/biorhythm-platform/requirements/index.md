@@ -8,7 +8,7 @@ The system uses blood pressure measurements taken approximately every 30 minutes
 
 The system can stitch batches of data into a continuous sequence, to provide a health history for an individual.
 
-The imported and sequenced data is analyzed with **[cosinor](../../algorithms/cosinor/)** and **[cumulative-sum](../../algorithms/cusum/)** algorithms.
+The imported and sequenced data is analyzed with **[cosinor](../../algorithms/cosinor.md)** and **[cumulative-sum](../../algorithms/cusum.md)** algorithms.
 
 The results of an analysis is available directly to the patient, and when appropriate, to the patient’s healthcare provider. Analysis solutions are automated and easy to use.
 

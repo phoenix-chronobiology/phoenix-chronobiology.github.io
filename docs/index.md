@@ -10,7 +10,7 @@ hide:
 
 **{{ config.site_name }}** envision:
 
-1. Using [chronobiologic](glossary/#chronobiology) principles (timing according to rhythms) for assessing cardiovascular health, detecting [pre-disease](glossary/#predisease) early, and optimizing treatment schedules, in order to reduce the number of people who die of preventable heart attacks and strokes.
+1. Using [chronobiologic](glossary/index.md#chronobiology) principles (timing according to rhythms) for assessing cardiovascular health, detecting [pre-disease](glossary/index.md#predisease) early, and optimizing treatment schedules, in order to reduce the number of people who die of preventable heart attacks and strokes.
 2. Understanding, for health surveillance and maintenance, how blood pressure and heart rate vary in response to stimuli in everyday life.
 
 ## The Phoenix Community
@@ -35,14 +35,14 @@ The Projects operate on [open source principles](https://opensource.org/osd/){: 
     * Easy to use
     * Collects a week of blood pressure measurements
 
-    See the [Ambulatory Blood Pressure Monitor project](abpm/).
+    See the [Ambulatory Blood Pressure Monitor project](abpm/index.md).
 
 2. **Develop a means for chronobiological analysis of collected blood pressure measurements**&emsp;
 
     See the:
     
-    * [Biorhythm Analysis Algorithms project](algorityms/)
-    * [Biorhythm Analytics Platform project](biorhythm-platform/)
+    * [Biorhythm Analysis Algorithms project](algorithms/index.md)
+    * [Biorhythm Analytics Platform project](biorhythm-platform/index.md)
 
 3. Be a learning community
 

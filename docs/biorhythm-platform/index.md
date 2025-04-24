@@ -1,10 +1,10 @@
 # Biorhythm Analytics Platform
 
-**{{ config.site_name }}** underpin an emerging healthcare program that uses [chronobiologic](../../glossary/#chronobiology) techniques to prevent [strokes](../../glossary/#stroke) and other effects of cardiac disease.
+**{{ config.site_name }}** underpin an emerging healthcare program that uses [chronobiologic](../glossary/index.md#chronobiology) techniques to prevent [strokes](../glossary/index.md#stroke) and other effects of cardiac disease.
 
-The system uses blood pressure measurements taken approximately every 30 minutes, day and night, in ambulatory fashion. Ideally, seven days of data are available. The projects' work on ambulatory blood pressure monitors is discussed in [ABPM](../../abpm/).
+The system uses blood pressure measurements taken approximately every 30 minutes, day and night, in ambulatory fashion. Ideally, seven days of data are available. The projects' work on ambulatory blood pressure monitors is discussed in [ABPM](../abpm/index.md).
 
-The **Biorhythm Analytics Platform** analyzes collected data with **[cosinor](../../algorithms/cosinor/)** and **[cumulative-sum](../../algorithms/cusum/)** algorithms. The results of an analysis is available directly to the patient, and when appropriate, to the patient’s healthcare provider. Analysis solutions are automated and easy to use.
+The **Biorhythm Analytics Platform** analyzes collected data with **[cosinor](../algorithms/cosinor.md)** and **[cumulative-sum](../algorithms/cusum.md)** algorithms. The results of an analysis is available directly to the patient, and when appropriate, to the patient’s healthcare provider. Analysis solutions are automated and easy to use.
 
 The solution is global in scope. Its capability is widely distributed and fronted by multi-lingual websites.
 

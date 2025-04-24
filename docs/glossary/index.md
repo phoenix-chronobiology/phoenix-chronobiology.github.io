@@ -164,7 +164,7 @@ hide:
 : The application of [chronobiology](#chronobiology) to human health and disease.
 
 <span id="chronomics">chronomics</span>
-: The molecular mechanisms involved in[chronobiological](#chronobiology) phenomena.
+: The molecular mechanisms involved in [chronobiological](#chronobiology) phenomena.
 : The quantitative aspects of [chronobiology](#chronobiology), particularly where comparison of cycles between organisms, or between an organism and external phenomena, is required.
 : source: [Wikipedia](http://en.wikipedia.org/wiki/Chronomics){: target="_blank" }
 
@@ -274,7 +274,7 @@ hide:
 : A state of two or more previously synchronized rhythmic variables that have ceased to exhibit the same [frequency](#frequency) and/or the same [acrophase](#acrophase) relationships and show changing time relations.
 
 <span id="dhrv">DHRV</span>
-: Initialism for [decreased heart rate variability](#decreased heart rate variability).
+: Initialism for [decreased heart rate variability](#decreased-heart-rate-variability).
 
 <span id="diagnosis"></span>
 : [medicine]
@@ -383,7 +383,7 @@ hide:
 : [physiology]
 : [_preliminary_]
 : The oscillation either in the interval between consecutive heartbeats or between consecutive instantaneous heart rates.
-: See also [cardiovascular variability](#cariovascular-variability).
+: See also [cardiovascular variability](#cardiovascular-variability).
 : See also [vascular variability](#vascular-variability).
 : Measurement:  multiple techniques exist.  Over short spans, say 5 to 15 minutes, a beat-to-beat interval (e.g., the R-R interval) is measured in milliseconds, usually from an electrocardiogram.  Over longer spans, the instantaneous heart rate, measured in beats per minute, are easier to collect.  Considering a 24-hour or longer span includes the variability associated with circadian variation.
 : Sometimes referred to as jitter.
