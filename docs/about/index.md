@@ -31,19 +31,19 @@ docs/
     index.md            # The documentation homepage
     about/
         index.md
-        images/             # subproject-specific images
+        images/         # subproject-specific images
         ...
     abpm/               # ambulatory blood pressure monitor subproject
         index.md
-        images/             # subproject-specific images
+        images/         # subproject-specific images
        ...
     algorithms/         # biorhythm analysis algorithms subproject
         index.md
-        images/             # subproject-specific images
+        images/         # subproject-specific images
         ...
     biorhythm-platform/ # biorhythm analysis platform subproject
         index.md
-        images/             # subproject-specific images
+        images/         # subproject-specific images
         architecture/
             index.md
             ...
@@ -58,7 +58,7 @@ docs/
         ...
     glossary/
         index.md
-        images/             # glossary-specific images
+        images/         # glossary-specific images
     images/             # program-general images, icons and clip art     
     javascripts/
     snippets/
