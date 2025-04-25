@@ -116,6 +116,27 @@ The [hero image](../images/hero-heart.svg){: target="_blank" } on the site's hom
 
 Math statements are rendered with the [LaTex](https://en.wikibooks.org/wiki/LaTeX/Mathematics){: target="_blank" } typesetting language, using the [MathJax](https://squidfunk.github.io/mkdocs-material/reference/math/){: target="_blank" } library for displaying mathematical content in browsers. MathJax is incorporated into MkDocs using [arithmatex](https://facelessuser.github.io/pymdown-extensions/extensions/arithmatex/){: target="_blank" }, a Python Markdown extension.
 
+## Blog
+
+The site uses the [blog plug-in built into Material for MkDocs](https://squidfunk.github.io/mkdocs-material/plugins/blog/){: target="_blank" }.
+
+A blog entry is written in Markdown, with meta data in the files header.
+
+```
+---
+date:
+  created: 2024-04-24
+  updated: 2024-10-15
+categories:
+  - Meeting Minutes
+---
+```
+
+With the meta data, the plug-in automatically creates archive and category pages that list a subset of posts for a time interval or category.
+
+!!! warning
+    Before the blog may become fully active, the project must still resolve details about attribution to, and mediation of, authors.
+
 ## Privacy
 
 The site uses the [privacy plugin built into Material for MkDocs](https://squidfunk.github.io/mkdocs-material/plugins/privacy/){: target="_blank" }. The plugin:
