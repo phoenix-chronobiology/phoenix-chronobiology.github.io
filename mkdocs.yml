@@ -33,7 +33,8 @@ nav:
       - Quality goals: library/quality-goals.md
       - Old Project Archive &boxbox;: https://phoenix-chronobiology.github.io/hyde/
   - Glossary: glossary/index.md
-  - Blog: blog/index.md
+  - Blog:
+      - blog/index.md
   - About the site:
       - About the site: about/index.md
       - Macros info: about/macros-info.md
@@ -78,12 +79,15 @@ theme:
         name: Switch to system preference
   features:
     - navigation.footer
+    - navigation.expand
     - navigation.indexes
-    - navigation.instant
-    - navigation.instant.progress
+    # - navigation.instant
+    # - navigation.instant.progress
+    - navigation.sections
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.top
+    - navigation.tracking
     - toc.follow
 
 # FORMATTING OPTIONS
@@ -137,7 +141,7 @@ plugins:
   - privacy:
       enabled: !ENV [CI, false]   # needs to be enabled at some point
   - search
-  - blog 
+  - blog
 
 extra_javascript:
   - javascripts/mathjax.js

@@ -1,12 +1,11 @@
 ---
 date:
-  created: 2023-12-31
+  created: 2024-08-24
+categories:
+  - Meeting Minutes
 ---
 
-# Happy new years eve!
-
-We hope you are all having fun and wish you all the best for the new year!
-<!-- more -->
+# A hot topic in 2024!
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua.
