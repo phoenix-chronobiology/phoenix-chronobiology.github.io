@@ -33,11 +33,13 @@ nav:
       - Quality goals: library/quality-goals.md
       - Old Project Archive &boxbox;: https://phoenix-chronobiology.github.io/hyde/
   - Glossary: glossary/index.md
+  - Blog: blog/index.md
   - About the site:
       - About the site: about/index.md
       - Macros info: about/macros-info.md
 
 not_in_nav: |
+  biorhythm-platform/system-block-architecture.md
   snippets/hero-image.md
   snippets/hide-title.md
 
@@ -135,10 +137,10 @@ plugins:
   - privacy:
       enabled: !ENV [CI, false]   # needs to be enabled at some point
   - search
+  - blog 
 
 extra_javascript:
   - javascripts/mathjax.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 extra_css:
