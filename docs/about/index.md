@@ -144,6 +144,8 @@ The URLs usually point into this site's source GitHub repository. However, a car
 * [The GitHub repository for **Hyde**](https://github.com/phoenix-chronobiology/hyde){: target="_blank" }, the archive of The Phoenix Chronobiology Projects' legacy site; or
 * The home site of the project sponsor, the University of Minnesota's [Halberg Chronobiology Center, `https://halbergchronobiologycenter.umn.edu)`](https://halbergchronobiologycenter.umn.edu){: target="_blank" }.
 
+This ability to reference sources outside the site is influenced by the activation of the [Privacy plug-in](#privacy).
+
 The ***Library*** automatically creates:
 
 1. *Archive* pages that list a subset of assets for a time interval.
@@ -165,7 +167,7 @@ The site uses the [blog plug-in built into Material for MkDocs](https://squidfun
 
 As with most of its kind, the **[Blog](../blog/index.md)** is composed of discrete, informal diary-style text entries. Entries are listed in reverse chronological order.
 
-A blog entry is written in Markdown, with meta data in the files header.
+A blog entry is written in Markdown, with meta data in the file header.
 
 ```
 ---
@@ -180,7 +182,7 @@ categories:
 With the meta data, the plug-in automatically creates *Archive* and *Category* pages that list a subset of posts for a time interval or category.
 
 !!! warning
-    The plug-in can automatically create "Author" pagess that list of the subset of posts by each author. However, the project must still resolve details about attribution to, and mediation of, authors.
+    The plug-in can automatically create "Author" pages that list of the subset of posts by each author. However, the project must still resolve details about attribution to, and mediation of, authors.
 
 ## Privacy
 
