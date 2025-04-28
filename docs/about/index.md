@@ -120,6 +120,8 @@ Math statements are rendered with the [LaTex](https://en.wikibooks.org/wiki/LaTe
 
 The site uses the [blog plug-in built into Material for MkDocs](https://squidfunk.github.io/mkdocs-material/plugins/blog/){: target="_blank" }.
 
+As with most of its kind, the [Blog](../blog/index.md) is composed of discrete, informal diary-style text entries. Entries are listed in reverse chronological order.
+
 A blog entry is written in Markdown, with meta data in the files header.
 
 ```
@@ -132,10 +134,10 @@ categories:
 ---
 ```
 
-With the meta data, the plug-in automatically creates archive and category pages that list a subset of posts for a time interval or category.
+With the meta data, the plug-in automatically creates *Archive* and *Category* pages that list a subset of posts for a time interval or category.
 
 !!! warning
-    Before the blog may become fully active, the project must still resolve details about attribution to, and mediation of, authors.
+    The plug-in can automatically create "Author" pagess that list of the subset of posts by each author. However, the project must still resolve details about attribution to, and mediation of, authors.
 
 ## Privacy
 
