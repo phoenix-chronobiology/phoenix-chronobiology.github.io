@@ -53,9 +53,13 @@ docs/
         requirements/
             index.md
             ...
+    blog/
+        index.md
+        posts/          # blog entries
     library/
         index.md
-        ...
+        catalog/        # library index cards
+        shelves/        # digital assets
     glossary/
         index.md
         images/         # glossary-specific images
@@ -116,11 +120,48 @@ The [hero image](../images/hero-heart.svg){: target="_blank" } on the site's hom
 
 Math statements are rendered with the [LaTex](https://en.wikibooks.org/wiki/LaTeX/Mathematics){: target="_blank" } typesetting language, using the [MathJax](https://squidfunk.github.io/mkdocs-material/reference/math/){: target="_blank" } library for displaying mathematical content in browsers. MathJax is incorporated into MkDocs using [arithmatex](https://facelessuser.github.io/pymdown-extensions/extensions/arithmatex/){: target="_blank" }, a Python Markdown extension.
 
+## Library
+
+The **[Library](../library/index.md)** is an indexed collection of papers and slides about topics that are important to [The&nbsp;Phoenix&nbsp;Chronobiology&nbsp;Projects](..). These include:
+
+* Publications and research materials written by members of the project.
+* Reference materials used by the project.
+
+The ***Library*** is modeled after [Academic Pages](https://github.com/academicpages/academicpages.github.io){: target="_blank" }, a GitHub Pages template for personal and professional portfolio-oriented websites. Each item in the library has a "library index card", in folder `library/cards`, that attributes the asset with:
+
+1. Its title.
+1. The authors.
+1. An abstract or excerpt of the work.
+1. The date of distribution or publication.
+1. The sub-collection, if any, in which the projects bundle the work.
+1. The categories to which the projects assign the work.
+1. A citation to the work.
+1. URLs to the digital files comprising the asset. The work may consist of some combination of papers, slides, spreadsheets, or graphics.
+
+The URLs will usually point into folder `library/files` of this site's source GitHub repository. However, a card might contain a link into:
+
+* A GitHub repository of an individual project contributor;
+* [The GitHub repository for **Hyde**](https://github.com/phoenix-chronobiology/hyde){: target="_blank" }, the archive of The Phoenix Chronobiology Projects' legacy site; or
+* The home site of the project sponsor, the University of Minnesota's [Halberg Chronobiology Center, `https://halbergchronobiologycenter.umn.edu)`](https://halbergchronobiologycenter.umn.edu){: target="_blank" }.
+
+The ***Library*** automatically creates:
+
+1. *Archive* pages that list a subset of assets for a time interval.
+1. *Collection* pages that list a subset of assets for each sub-collection.
+1. *Category* pages that list a subset of assets for each category.
+
+!!! bug "IDEA"
+    1. The summary pages (*Archive*, *Collection*, *Category*) are similar to those proposed for the [Blog](#blog). Implementations can be derived from [Academic Pages](https://github.com/academicpages/academicpages.github.io){: target="_blank" }. Because Academic Pages use [Jekyll](https://jekyllrb.com/){: target="_blank" } rather than [MkDocs](https://www.mkdocs.org){: target="_blank" } for static site generation, the templates for Academic Pages must be converted from [Liquid](https://jekyllrb.com/docs/liquid/){: target="_blank" } to [Jinja](https://palletsprojects.com/projects/jinja/){: target="_blank" }. (The grammar and environments of Liquid and Jinja are similar, so the conversion would be straightforward.)
+    1. The idea of a *Collection* might not be distinct enough from that of a *Category* to be worth implementing.
+    1. Must decide whether to allow the assignment of a given asset to multiple categories rather than to just one.
+    1. Must decide whether to govern the list of categories to avoid redundant or misunderstood keywords.
+    1. The ***Library*** could automatically create "Author" pagess that list of the assets produced by each author. However, the project must still resolve details about attribution to, and mediation of, authors.
+
 ## Blog
 
 The site uses the [blog plug-in built into Material for MkDocs](https://squidfunk.github.io/mkdocs-material/plugins/blog/){: target="_blank" }.
 
-As with most of its kind, the [Blog](../blog/index.md) is composed of discrete, informal diary-style text entries. Entries are listed in reverse chronological order.
+As with most of its kind, the **[Blog](../blog/index.md)** is composed of discrete, informal diary-style text entries. Entries are listed in reverse chronological order.
 
 A blog entry is written in Markdown, with meta data in the files header.
 
