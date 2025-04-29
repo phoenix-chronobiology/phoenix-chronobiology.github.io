@@ -1,10 +1,10 @@
 <figure markdown="span">
     ![Idea Under Discussion](../images/idea-color.png){ width="100" } 
-    <figcaption>Content Pending &mdash; Idea Under Discussion</figcaption>
+    <figcaption>Idea Under Discussion &mdash; Content Pending</figcaption>
 </figure>
 
 !!! abstract "The Idea"
-    The ***Library*** is an indexed collection of papers and slides about topics that are important to [The&nbsp;Phoenix&nbsp;Chronobiology&nbsp;Projects](..). These include:
+    The ***Library*** is an indexed collection of papers and slides about topics that are important to [The&nbsp;Phoenix&nbsp;Chronobiology&nbsp;Projects](../index.md). These include:
     
     * Publications and research materials written by members of the project.
     * Reference materials used by the project.

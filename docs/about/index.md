@@ -122,7 +122,7 @@ Math statements are rendered with the [LaTex](https://en.wikibooks.org/wiki/LaTe
 
 ## Library
 
-The **[Library](../library/index.md)** is an indexed collection of papers and slides about topics that are important to [The&nbsp;Phoenix&nbsp;Chronobiology&nbsp;Projects](..). These include:
+The **[Library](../library/index.md)** is an indexed collection of papers and slides about topics that are important to [The&nbsp;Phoenix&nbsp;Chronobiology&nbsp;Projects](../index.md). These include:
 
 * Publications and research materials written by members of the project.
 * Reference materials used by the project.
