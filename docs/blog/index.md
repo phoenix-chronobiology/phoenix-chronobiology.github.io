@@ -11,3 +11,5 @@
     For a design direction, see [About &rarr; Blog](../about/index.md#blog).
 
     The posts listed here are placeholders, to illustrate the blog feature and to guide new authors.
+
+    For a fully developed blog on which this blog is modeled, see the [Material for MkDocs Blog](https://squidfunk.github.io/mkdocs-material/blog/){: target="_blank" }

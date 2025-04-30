@@ -8,51 +8,21 @@ edit_uri: null
 
 copyright: <p xmlns:cc="http://creativecommons.org/ns#" ><a rel="cc:attributionURL" href="https://phoenix-chronobiology.github.io/">This work</a> &copy; 2025 by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/phoenix-chronobiology" target="_blank">CHRISTOPHER ADAMS</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"> &boxbox;</a></p>
 
-# DOCUMENTATION LAYOUT
-nav:
-  - The Phoenix Chronobiology Projects: index.md
-  - ABPM: abpm/index.md
-  - Algorithms:
-      - Algorithms: algorithms/index.md
-      - COSINOR analysis: algorithms/cosinor.md
-      - CUSUM analysis: algorithms/cusum.md
-  - Biorhythm Platform:
-      - Biorhythm Platform: biorhythm-platform/index.md
-      - Requirements:
-          - Requirements: biorhythm-platform/requirements/index.md
-      - Conceptual Architecture: biorhythm-platform/conceptual-architecture.md
-      - Privacy &amp; security:
-          - Privacy &amp; security: biorhythm-platform/privacy-security/index.md
-          - Security requirements: biorhythm-platform/privacy-security/security-requirements.md
-          - Security architecture: biorhythm-platform/privacy-security/security-architecture.md
-          - Threat assessment: biorhythm-platform/privacy-security/threat-assessment.md
-          - Attack surface analysis: biorhythm-platform/privacy-security/attack-surface-analysis.md
-  - Library:
-      - Library: library/index.md
-      - Design goals: library/design-goals.md
-      - Quality goals: library/quality-goals.md
-      - Old Project Archive &boxbox;: https://phoenix-chronobiology.github.io/hyde/
-  - Glossary: glossary/index.md
-  - Blog:
-      - blog/index.md
-  - About the site:
-      - About the site: about/index.md
-      - Macros info: about/macros-info.md
-
-not_in_nav: |
-  biorhythm-platform/system-block-architecture.md
-  snippets/hero-image.md
-  snippets/hide-title.md
-
-# BUILD DIRECTORIES
 theme:
   name: material
-  locale: en
-  font:
-    text: Cabin
-    code: Ubuntu Mono
-  favicon: images/circadian-rhythms-32x32.png
-  logo: images/phoenix-mark-white.png
+  custom_dir: material-overrides
+  features:
+    - navigation.footer
+    - navigation.expand
+    - navigation.indexes
+    # - navigation.instant
+    # - navigation.instant.progress
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - toc.follow
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
@@ -77,18 +47,37 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
-  features:
-    - navigation.footer
-    - navigation.expand
-    - navigation.indexes
-    # - navigation.instant
-    # - navigation.instant.progress
-    - navigation.sections
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.top
-    - navigation.tracking
-    - toc.follow
+
+  locale: en
+  font:
+    text: Cabin
+    code: Ubuntu Mono
+  favicon: images/circadian-rhythms-32x32.png
+  logo: images/phoenix-mark-white.png
+
+plugins:
+  - exclude:
+      glob:
+        - "*.drawio"
+  - git-revision-date-localized:
+      type: custom
+      custom_format: "%Y-%m-%d %H:%M:%S%z (%Z)"
+      locale: en
+      timezone: US/Central
+  - link-marker
+  - macros
+  - privacy:
+      enabled: !ENV [CI, false]   # needs to be enabled at some point
+  - search
+  - blog
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+extra_css:
+  - stylesheets/hero-image.css
+  - stylesheets/typeset.css
 
 # FORMATTING OPTIONS
 markdown_extensions:  # see https://squidfunk.github.io/mkdocs-material/setup/extensions/
@@ -127,26 +116,38 @@ markdown_extensions:  # see https://squidfunk.github.io/mkdocs-material/setup/ex
       clickable_checkbox: false
   - pymdownx.tilde
 
-plugins:
-  - exclude:
-      glob:
-        - "*.drawio"
-  - git-revision-date-localized:
-      type: custom
-      custom_format: "%Y-%m-%d %H:%M:%S%z (%Z)"
-      locale: en
-      timezone: US/Central
-  - link-marker
-  - macros
-  - privacy:
-      enabled: !ENV [CI, false]   # needs to be enabled at some point
-  - search
-  - blog
+# DOCUMENTATION LAYOUT
+nav:
+  - The Phoenix Chronobiology Projects: index.md
+  - ABPM: abpm/index.md
+  - Algorithms:
+      - Algorithms: algorithms/index.md
+      - COSINOR analysis: algorithms/cosinor.md
+      - CUSUM analysis: algorithms/cusum.md
+  - Biorhythm Platform:
+      - Biorhythm Platform: biorhythm-platform/index.md
+      - Requirements:
+          - Requirements: biorhythm-platform/requirements/index.md
+      - Conceptual Architecture: biorhythm-platform/conceptual-architecture.md
+      - Privacy &amp; security:
+          - Privacy &amp; security: biorhythm-platform/privacy-security/index.md
+          - Security requirements: biorhythm-platform/privacy-security/security-requirements.md
+          - Security architecture: biorhythm-platform/privacy-security/security-architecture.md
+          - Threat assessment: biorhythm-platform/privacy-security/threat-assessment.md
+          - Attack surface analysis: biorhythm-platform/privacy-security/attack-surface-analysis.md
+  - Library:
+      - Library: library/index.md
+      - Design goals: library/design-goals.md
+      - Quality goals: library/quality-goals.md
+      - Old Project Archive &boxbox;: https://phoenix-chronobiology.github.io/hyde/
+  - Glossary: glossary/index.md
+  - Blog:
+      - blog/index.md
+  - About the site:
+      - About the site: about/index.md
+      - Macros info: about/macros-info.md
 
-extra_javascript:
-  - javascripts/mathjax.js
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-
-extra_css:
-  - stylesheets/hero-image.css
-  - stylesheets/typeset.css
+not_in_nav: |
+  biorhythm-platform/system-block-architecture.md
+  snippets/hero-image.md
+  snippets/hide-title.md
