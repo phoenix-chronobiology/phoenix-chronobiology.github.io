@@ -10,7 +10,7 @@ copyright: <p xmlns:cc="http://creativecommons.org/ns#" ><a rel="cc:attributionU
 
 theme:
   name: material
-  custom_dir: material-overrides
+  custom_dir: overrides
   features:
     - navigation.footer
     - navigation.expand
