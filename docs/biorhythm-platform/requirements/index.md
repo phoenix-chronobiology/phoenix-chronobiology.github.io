@@ -75,7 +75,7 @@ The website allows the general public to discover individualized treatments that
 
 !!! bug
 
-    Reconcile the following with [Design goals](../../library/design-goals.md) and [Quality goals](../../library/quality-goals.md).
+    Reconcile the following with [Design goals](https://phoenix-chronobiology.github.io/library/2024/06/01/about-design-goals/) and [Quality goals](https://phoenix-chronobiology.github.io/library/2024/06/01/about-quality-goals/).
 
 Inexpensive
 : Free and open source software[^foss]

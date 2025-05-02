@@ -1,7 +1,5 @@
 
-![Under Construction][def]
-
-[def]: ../images/underconstruction.svg
+![Under Construction](../images/underconstruction.svg)
 
 !!! bug "Issues"
     Multiple instances must be supported for each of:

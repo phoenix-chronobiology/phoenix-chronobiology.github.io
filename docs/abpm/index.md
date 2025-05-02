@@ -1,9 +1,9 @@
 # Ambulatory Blood Pressure Monitor
 
-<figure markdown="span">
-    ![Idea Under Discussion](../images/idea-color.png){ width="100" } 
-    <figcaption>Idea Under Discussion &mdash; Content Pending</figcaption>
-</figure>
+![Idea Under Discussion](../images/idea-color.png){ width="100" } 
+/// caption
+Idea Under Discussion &mdash; Content Pending
+///
 
 !!! abstract "The Idea"
     Research ambulatory blood pressure monitors.

@@ -53,13 +53,6 @@ docs/
         requirements/
             index.md
             ...
-    blog/
-        index.md
-        posts/          # blog entries
-    library/
-        index.md
-        catalog/        # library index cards
-        shelves/        # digital assets
     glossary/
         index.md
         images/         # glossary-specific images
@@ -69,6 +62,11 @@ docs/
     stylesheets/
     ...                 # Other markdown pages and other files
 ```
+
+The project is linked to two subprojects:
+
+* blog
+* library
 
 ### Theme
 
@@ -122,18 +120,22 @@ Math statements are rendered with the [LaTex](https://en.wikibooks.org/wiki/LaTe
 
 ## Library
 
-The **[Library](../library/index.md)** is an indexed collection of papers and slides about topics that are important to [The&nbsp;Phoenix&nbsp;Chronobiology&nbsp;Projects](../index.md). These include:
+The **[Library](https://phoenix-chronobiology.github.io/library/){: target="_blank" }** is an indexed collection of papers and slides about topics that are important to [The&nbsp;Phoenix&nbsp;Chronobiology&nbsp;Projects](../index.md). These include:
 
 * Publications and research materials written by members of the project.
 * Reference materials used by the project.
 
-The ***Library*** is modeled after [Academic Pages](https://github.com/academicpages/academicpages.github.io){: target="_blank" }, a GitHub Pages template for personal and professional portfolio-oriented websites. Each item in the library has a "library index card" that attributes the asset with:
+The ***Library*** is built as a subsite, separate from this main site. This was done primarily so that the [blog plug-in built into Material for MkDocs](https://squidfunk.github.io/mkdocs-material/plugins/blog/){: target="_blank" } could be applied to both the Library and the Blog components. The Blog plug-in uses Markdown front-matter to automatically create:
+
+1. *Archive* pages that each list a subset of assets for a time interval.
+1. *Category* pages that each list a subset of assets for each category.
+
+Every item in the library has an article, written in Markdown, that serves as library index card. The card includes:
 
 1. Its title.
 1. The authors.
 1. An abstract or excerpt of the work.
 1. The date of distribution or publication.
-1. The sub-collection, if any, in which the projects bundle the work.
 1. The categories to which the projects assign the work.
 1. A citation to the work.
 1. URLs to the digital files comprising the asset. The work may consist of some combination of papers, slides, spreadsheets, or graphics.
@@ -146,26 +148,17 @@ The URLs usually point into this site's source GitHub repository. However, a car
 
 This ability to reference sources outside the site is influenced by the activation of the [Privacy plug-in](#privacy).
 
-The ***Library*** automatically creates:
-
-1. *Archive* pages that list a subset of assets for a time interval.
-1. *Collection* pages that list a subset of assets for each sub-collection.
-1. *Category* pages that list a subset of assets for each category.
-
-The automatically created pages employ templates written in [Jinja](https://palletsprojects.com/projects/jinja/){: target="_blank" }, which is the template language used by [MkDocs](https://www.mkdocs.org){: target="_blank" }.
-
 !!! bug "IDEA"
-    1. The summary pages (*Archive*, *Collection*, *Category*) are similar to those proposed for the [Blog](#blog) and to those implemented by [Academic Pages](https://github.com/academicpages/academicpages.github.io){: target="_blank" }. Because Academic Pages uses [Jekyll](https://jekyllrb.com/){: target="_blank" } rather than [MkDocs](https://www.mkdocs.org){: target="_blank" } for static site generation, the templates for Academic Pages must be converted from [Liquid](https://jekyllrb.com/docs/liquid/){: target="_blank" } to [Jinja](https://palletsprojects.com/projects/jinja/){: target="_blank" }. (The grammar and environments of Liquid and Jinja are similar, so the conversion would be straightforward.)
-    1. The idea of a *Collection* might not be distinct enough from that of a *Category* to be worth implementing.
     1. The project must decide whether to allow the assignment of a given asset to multiple categories rather than to just one.
     1. The project must decide whether to govern the list of categories to avoid redundant or misunderstood keywords.
     1. The ***Library*** could automatically create "Author" pages that list the assets produced by each author. However, just as for the Blog, the project must still resolve details about author privacy.
+    1. The summary pages (*Archive*, *Category*) are similar to those implemented by [Academic Pages](https://github.com/academicpages/academicpages.github.io){: target="_blank" }. Because Academic Pages uses [Jekyll](https://jekyllrb.com/){: target="_blank" } rather than [MkDocs](https://www.mkdocs.org){: target="_blank" } for static site generation, the templates for Academic Pages would need converting from [Liquid](https://jekyllrb.com/docs/liquid/){: target="_blank" } to [Jinja](https://palletsprojects.com/projects/jinja/){: target="_blank" }. (The grammar and environments of Liquid and Jinja are similar, so the conversion would be straightforward.)
 
 ## Blog
 
-The site uses the [blog plug-in built into Material for MkDocs](https://squidfunk.github.io/mkdocs-material/plugins/blog/){: target="_blank" }.
+As with most of its kind, the **[Blog](https://phoenix-chronobiology.github.io/blog/)** is composed of discrete, informal diary-style text entries. Entries are listed in reverse chronological order.
 
-As with most of its kind, the **[Blog](../blog/index.md)** is composed of discrete, informal diary-style text entries. Entries are listed in reverse chronological order.
+The site uses the [blog plug-in built into Material for MkDocs](https://squidfunk.github.io/mkdocs-material/plugins/blog/){: target="_blank" }.
 
 A blog entry is written in Markdown, with meta data in the file header.
 
@@ -181,8 +174,10 @@ categories:
 
 With the meta data, the plug-in automatically creates *Archive* and *Category* pages that list a subset of posts for a time interval or category.
 
-!!! warning
+!!! bug "IDEA"
     The plug-in can automatically create "Author" pages that list of the subset of posts by each author. However, the project must still resolve details about attribution to, and mediation of, authors.
+
+The ***Blog***, like the ***[Library](https://phoenix-chronobiology.github.io/library/)***, is built as a subsite, separate from this main site.
 
 ## Privacy
 

@@ -63,13 +63,13 @@ plugins:
       type: custom
       custom_format: "%Y-%m-%d %H:%M:%S%z (%Z)"
       locale: en
-      timezone: US/Central
+      timezone: US/Central 
   - link-marker
   - macros
   - privacy:
       enabled: !ENV [CI, false]   # needs to be enabled at some point
   - search
-  - blog
+  - tags
 
 extra_javascript:
   - javascripts/mathjax.js
@@ -96,6 +96,7 @@ markdown_extensions:  # see https://squidfunk.github.io/mkdocs-material/setup/ex
       toc_depth: 3
   - pymdownx.arithmatex:
       generic: true
+  - pymdownx.blocks.caption
   - pymdownx.blocks.tab:
       alternate_style: true
       combine_header_slug: true
@@ -135,19 +136,15 @@ nav:
           - Security architecture: biorhythm-platform/privacy-security/security-architecture.md
           - Threat assessment: biorhythm-platform/privacy-security/threat-assessment.md
           - Attack surface analysis: biorhythm-platform/privacy-security/attack-surface-analysis.md
-  - Library:
-      - Library: library/index.md
-      - Design goals: library/design-goals.md
-      - Quality goals: library/quality-goals.md
-      - Old Project Archive &boxbox;: https://phoenix-chronobiology.github.io/hyde/
+  - Library &boxbox;: https://phoenix-chronobiology.github.io/library/
   - Glossary: glossary/index.md
-  - Blog:
-      - blog/index.md
+  - Blog &boxbox;: https://phoenix-chronobiology.github.io/blog/
   - About the site:
       - About the site: about/index.md
       - Macros info: about/macros-info.md
 
 not_in_nav: |
-  biorhythm-platform/system-block-architecture.md
   snippets/hero-image.md
-  snippets/hide-title.md
+  snippets/hide-title.md 
+  biorhythm-platform/system-block-architecture.md
+

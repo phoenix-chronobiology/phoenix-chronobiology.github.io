@@ -58,9 +58,6 @@ docs/
             ...
     images/
     javascripts/
-    library/
-        index.md
-        ...
     privacy-security/
         index.md
         ...
@@ -69,6 +66,9 @@ docs/
     glossary.md
     ...                 # Other markdown pages and other files
 ```
+
+The ***Library*** and ***Blog*** components are built as external subsites.
+
 ### Theme
 
 [Material for MkDocs](https://squidfunk.github.io/mkdocs-material)
