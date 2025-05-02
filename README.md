@@ -38,7 +38,7 @@ For full documentation, visit [mkdocs.org](https://www.mkdocs.org).
 
 ### Project layout
 
-```
+``` yaml
 mkdocs.yml              # The configuration file
 docs/
     index.md            # The documentation homepage
@@ -91,7 +91,7 @@ The actions are triggered by a `git push` to the `main` branch.
 
 1. Checkout repository
 
-    ```
+    ``` sh
     git clone https://github.com/phoenix-chronobiology/phoenix-biorhythm-platform.git
     ```
 
@@ -103,7 +103,7 @@ The actions are triggered by a `git push` to the `main` branch.
 
 1. Set up Node.js dependencies
 
-    ```
+    ``` sh
     npm clean-install
     ```
 
@@ -116,7 +116,7 @@ The actions are triggered by a `git push` to the `main` branch.
 
 1. Install Python dependencies
 
-    ```
+    ``` sh
     pip install mkdocs
     pip install mkdocs-material
     pip install mkdocs-macros-plugin
@@ -127,7 +127,7 @@ The actions are triggered by a `git push` to the `main` branch.
 
 1. Build documentation
 
-    ```
+    ``` sh
     mkdocs build --clean
     mkdocs --version
     ```
@@ -138,7 +138,7 @@ The actions are triggered by a `git push` to the `main` branch.
     >
     > Default is port `8000`
 
-    ```
+    ``` sh
     mkdocs serve
     ```
 

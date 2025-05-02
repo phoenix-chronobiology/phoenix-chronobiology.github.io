@@ -87,78 +87,78 @@ The product shall:
 
 **Lawfulness**
 
-- [ ] We have identified an appropriate lawful basis (or bases) for our processing.
-- [ ] If we are processing special category data or criminal offence data, we have identified a condition for processing this type of data.
-- [ ] We don’t do anything generally unlawful with personal data.
+- [x] We have identified an appropriate lawful basis (or bases) for our processing.
+- [x] If we are processing special category data or criminal offence data, we have identified a condition for processing this type of data.
+- [x] We don’t do anything generally unlawful with personal data.
 
 **Fairness**
 
-- [ ] We have considered how the processing may affect the individuals concerned and can justify any adverse impact.
-- [ ] We only handle people’s data in ways they would reasonably expect, or we can explain why any unexpected processing is justified.
-- [ ] We do not deceive or mislead people when we collect their personal data.
+- [x] We have considered how the processing may affect the individuals concerned and can justify any adverse impact.
+- [x] We only handle people’s data in ways they would reasonably expect, or we can explain why any unexpected processing is justified.
+- [x] We do not deceive or mislead people when we collect their personal data.
 
 **Transparency**
 
-- [ ] We are open and honest, and comply with the transparency obligations of the right to be informed.
+- [x] We are open and honest, and comply with the transparency obligations of the right to be informed.
 
 ### Purpose limitation
 
-- [ ] We have clearly identified our purpose or purposes for processing.
-- [ ] We have documented those purposes.
-- [ ] We include details of our purposes in our privacy information for individuals.
-- [ ] We regularly review our processing and, where necessary, update our documentation and our privacy information for individuals.
-- [ ] If we plan to use personal data for a new purpose other than a legal obligation or function set out in law, we check that this is compatible with our original purpose or we get specific consent for the new purpose.
+- [x] We have clearly identified our purpose or purposes for processing.
+- [x] We have documented those purposes.
+- [x] We include details of our purposes in our privacy information for individuals.
+- [x] We regularly review our processing and, where necessary, update our documentation and our privacy information for individuals.
+- [x] If we plan to use personal data for a new purpose other than a legal obligation or function set out in law, we check that this is compatible with our original purpose or we get specific consent for the new purpose.
 
 ### Data minimization
 
-- [ ] We only collect personal data we actually need for our specified purposes.
-- [ ] We have sufficient personal data to properly fulfil those purposes.
-- [ ] We periodically review the data we hold, and delete anything we don’t need.
+- [x] We only collect personal data we actually need for our specified purposes.
+- [x] We have sufficient personal data to properly fulfil those purposes.
+- [x] We periodically review the data we hold, and delete anything we don’t need.
 
 ### Accuracy
 
-- [ ] We ensure the accuracy of any personal data we create.
-- [ ] We have appropriate processes in place to check the accuracy of the data we collect, and we record the source of that data.
-- [ ] We have a process in place to identify when we need to keep the data updated to properly fulfil our purpose, and we update it as necessary.
-- [ ] If we need to keep a record of a mistake, we clearly identify it as a mistake.
-- [ ] Our records clearly identify any matters of opinion, and where appropriate whose opinion it is and any relevant changes to the underlying facts.
-- [ ] We comply with the individual’s right to rectification and carefully consider any challenges to the accuracy of the personal data.
-- [ ] As a matter of good practice, we keep a note of any challenges to the accuracy of the personal data.
+- [x] We ensure the accuracy of any personal data we create.
+- [x] We have appropriate processes in place to check the accuracy of the data we collect, and we record the source of that data.
+- [x] We have a process in place to identify when we need to keep the data updated to properly fulfil our purpose, and we update it as necessary.
+- [x] If we need to keep a record of a mistake, we clearly identify it as a mistake.
+- [x] Our records clearly identify any matters of opinion, and where appropriate whose opinion it is and any relevant changes to the underlying facts.
+- [x] We comply with the individual’s right to rectification and carefully consider any challenges to the accuracy of the personal data.
+- [x] As a matter of good practice, we keep a note of any challenges to the accuracy of the personal data.
 
 ### Storage limitation
 
-- [ ] We know what personal data we hold and why we need it.
-- [ ] We carefully consider and can justify how long we keep personal data.
-- [ ] We have a policy with standard retention periods where possible, in line with documentation obligations.
-- [ ] We regularly review our information and erase or anonymise personal data when we no longer need it.
-- [ ] We have appropriate processes in place to comply with individuals’ requests for erasure under ‘the right to be forgotten’.
-- [ ] We clearly identify any personal data that we need to keep for public interest archiving, scientific or historical research, or statistical purposes.
+- [x] We know what personal data we hold and why we need it.
+- [x] We carefully consider and can justify how long we keep personal data.
+- [x] We have a policy with standard retention periods where possible, in line with documentation obligations.
+- [x] We regularly review our information and erase or anonymise personal data when we no longer need it.
+- [x] We have appropriate processes in place to comply with individuals’ requests for erasure under ‘the right to be forgotten’.
+- [x] We clearly identify any personal data that we need to keep for public interest archiving, scientific or historical research, or statistical purposes.
 
 ### Integrity and confidentiality (security)
 
-- [ ] We process personal data in a manner that ensures its appropriate security, including protection against unauthorised or unlawful processing and against accidental loss, destruction or damage, using appropriate technical or organisational measures
+- [x] We process personal data in a manner that ensures its appropriate security, including protection against unauthorised or unlawful processing and against accidental loss, destruction or damage, using appropriate technical or organisational measures
 
 ### Accountability
 
 We put in place appropriate technical and organizational measures, such as:
 
-- [ ] adopting and implementing data protection policies (where proportionate);
-- [ ] taking a 'data protection by design and default' approach &mdash; putting appropriate data protection measures in place throughout the entire lifecycle of our processing operations;
-- [ ] putting written contracts in place with organisations that process personal data on our behalf;
-- [ ] maintaining documentation of our processing activities;
-- [ ] implementing appropriate security measures;
-- [ ] recording and, where necessary, reporting personal data breaches;
-- [ ] carrying out data protection impact assessments for uses of personal data that are likely to result in high risk to individuals’ interests;
-- [ ] appointing a data protection officer (where necessary); and
-- [ ] adhering to relevant codes of conduct and signing up to certification schemes (where possible).
+- [x] adopting and implementing data protection policies (where proportionate);
+- [x] taking a 'data protection by design and default' approach &mdash; putting appropriate data protection measures in place throughout the entire lifecycle of our processing operations;
+- [x] putting written contracts in place with organisations that process personal data on our behalf;
+- [x] maintaining documentation of our processing activities;
+- [x] implementing appropriate security measures;
+- [x] recording and, where necessary, reporting personal data breaches;
+- [x] carrying out data protection impact assessments for uses of personal data that are likely to result in high risk to individuals’ interests;
+- [x] appointing a data protection officer (where necessary); and
+- [x] adhering to relevant codes of conduct and signing up to certification schemes (where possible).
 
 ## Other
 
 Keep secrets out of public platforms, such as GitHub. Use a purpose-built secrets management platform.
 
-De-identify data
+De-identify data.
 
-Privileged access management[^pam]
+Apply privileged access management[^pam]
 
 
 [^cra]: "Annex 1: Essential Cybersecurity Requirements", **The European Cyber Resilience Act**. Proposal 14 September 2022. [https://www.european-cyber-resilience-act.com/Cyber_Resilience_Act_Annex_1.html](https://www.european-cyber-resilience-act.com/Cyber_Resilience_Act_Annex_1.html){: target="_blank" }.

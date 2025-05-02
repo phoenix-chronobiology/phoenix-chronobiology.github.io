@@ -25,7 +25,7 @@ For full documentation, visit [mkdocs.org](https://www.mkdocs.org){: target="_bl
 
 ### Project layout
 
-```
+``` yaml
 mkdocs.yml              # The configuration file
 docs/
     index.md            # The documentation homepage
@@ -163,7 +163,8 @@ The Blog plug-in uses Markdown front-matter to automatically create:
 1. *Category* pages that each list a subset of assets for each category.
 
 !!! example
-    ```
+    ``` markdown
+
     ---
     date:
       created: 2024-04-24
