@@ -120,20 +120,15 @@ Math statements are rendered with the [LaTex](https://en.wikibooks.org/wiki/LaTe
 
 ## Library
 
-The **[Library](https://phoenix-chronobiology.github.io/library/){: target="_blank" }** is an indexed collection of papers and slides about topics that are important to [The&nbsp;Phoenix&nbsp;Chronobiology&nbsp;Projects](../index.md). These include:
-
-* Publications and research materials written by members of the project.
-* Reference materials used by the project.
-
-The ***Library*** is built as a subsite, separate from this main site. This was done primarily so that the [blog plug-in built into Material for MkDocs](https://squidfunk.github.io/mkdocs-material/plugins/blog/){: target="_blank" } could be applied to both the Library and the Blog components. The Blog plug-in uses Markdown front-matter to automatically create:
+The ***[Library](https://phoenix-chronobiology.github.io/library/)*** is built as a subsite, separate from this main site. This was done primarily so that the [blog plug-in built into Material for MkDocs](https://squidfunk.github.io/mkdocs-material/plugins/blog/){: target="_blank" } could be applied to both the **Library** and the **[Blog](#blog)** components. The Blog plug-in uses Markdown front-matter to automatically create:
 
 1. *Archive* pages that each list a subset of assets for a time interval.
 1. *Category* pages that each list a subset of assets for each category.
 
 Every item in the library has an article, written in Markdown, that serves as library index card. The card includes:
 
-1. Its title.
-1. The authors.
+1. The work's title.
+1. The work's authors.
 1. An abstract or excerpt of the work.
 1. The date of distribution or publication.
 1. The categories to which the projects assign the work.
@@ -156,28 +151,35 @@ This ability to reference sources outside the site is influenced by the activati
 
 ## Blog
 
-As with most of its kind, the **[Blog](https://phoenix-chronobiology.github.io/blog/)** is composed of discrete, informal diary-style text entries. Entries are listed in reverse chronological order.
+The ***[Blog](https://phoenix-chronobiology.github.io/blog/)***, like the ***[Library](#library)***, is built as a subsite, separate from this main site.
 
-The site uses the [blog plug-in built into Material for MkDocs](https://squidfunk.github.io/mkdocs-material/plugins/blog/){: target="_blank" }.
+The Blog subsite uses the [blog plug-in built into Material for MkDocs](https://squidfunk.github.io/mkdocs-material/plugins/blog/){: target="_blank" }.
 
-A blog entry is written in Markdown, with meta data in the file header.
+Each blog entry is written in Markdown.
 
-```
----
-date:
-  created: 2024-04-24
-  updated: 2024-10-15
-categories:
-  - Meeting Minutes
----
-```
+The Blog plug-in uses Markdown front-matter to automatically create:
 
-With the meta data, the plug-in automatically creates *Archive* and *Category* pages that list a subset of posts for a time interval or category.
+1. *Archive* pages that each list a subset of assets for a time interval.
+1. *Category* pages that each list a subset of assets for each category.
+
+!!! example
+    ```
+    ---
+    date:
+      created: 2024-04-24
+      updated: 2024-10-15
+    categories:
+      - Meeting Minutes
+    ---
+
+    # Welcome 2024!
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua.
+    ```
 
 !!! bug "IDEA"
     The plug-in can automatically create "Author" pages that list of the subset of posts by each author. However, the project must still resolve details about attribution to, and mediation of, authors.
-
-The ***Blog***, like the ***[Library](https://phoenix-chronobiology.github.io/library/)***, is built as a subsite, separate from this main site.
 
 ## Privacy
 
