@@ -181,6 +181,8 @@ The Blog plug-in uses Markdown front-matter to automatically create:
 !!! bug "IDEA"
     The plug-in can automatically create "Author" pages that list of the subset of posts by each author. However, the project must still resolve details about attribution to, and mediation of, authors.
 
+For a fully developed blog on which this blog is modeled, see the [Material for MkDocs Blog](https://squidfunk.github.io/mkdocs-material/blog/){: target="_blank" }
+
 ## Privacy
 
 The site uses the [privacy plugin built into Material for MkDocs](https://squidfunk.github.io/mkdocs-material/plugins/privacy/){: target="_blank" }. The plugin:
