@@ -1,13 +1,20 @@
+# ------------------------------
 # PROJECT INFORMATION
+# ------------------------------
+
 site_name: !ENV [SITE_NAME, 'The Phoenix Chronobiology Projects']
 site_author: Christopher Adams
 
 repo_url: https://github.com/phoenix-chronobiology/phoenix-chronobiology.github.io
 
+# ------------------------------
 # SHARED MKDOCS CONFIG
+# ------------------------------
 INHERIT: base.yml
 
+# ------------------------------
 # DOCUMENTATION LAYOUT
+# ------------------------------
 nav:
   - The Phoenix Chronobiology Projects: index.md
   - ABPM: abpm/index.md
