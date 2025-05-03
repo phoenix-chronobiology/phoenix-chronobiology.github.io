@@ -146,7 +146,7 @@ This ability to reference sources outside the site is influenced by the activati
 !!! bug "IDEA"
     1. The project must decide whether to allow the assignment of a given asset to multiple categories rather than to just one.
     1. The project must decide whether to govern the list of categories to avoid redundant or misunderstood keywords.
-    1. The ***Library*** could automatically create "Author" pages that list the assets produced by each author. However, just as for the Blog, the project must still resolve details about author privacy.
+    1. The plug-in can highlight the authors of each article. However, just as for the Blog, the project must still resolve details about author privacy. Keep in mind that, even if authors are highlighted, an index of posts by author is not generated, unlike the Archive and Category pages.
     1. The summary pages (*Archive*, *Category*) are similar to those implemented by [Academic Pages](https://github.com/academicpages/academicpages.github.io){: target="_blank" }. Because Academic Pages uses [Jekyll](https://jekyllrb.com/){: target="_blank" } rather than [MkDocs](https://www.mkdocs.org){: target="_blank" } for static site generation, the templates for Academic Pages would need converting from [Liquid](https://jekyllrb.com/docs/liquid/){: target="_blank" } to [Jinja](https://palletsprojects.com/projects/jinja/){: target="_blank" }. (The grammar and environments of Liquid and Jinja are similar, so the conversion would be straightforward.)
 
 ## Blog
@@ -180,7 +180,9 @@ The Blog plug-in uses Markdown front-matter to automatically create:
     ```
 
 !!! bug "IDEA"
-    The plug-in can automatically create "Author" pages that list of the subset of posts by each author. However, the project must still resolve details about attribution to, and mediation of, authors.
+    The plug-in can highlight the authors of each post. However, the project must still resolve details about attribution to, and mediation of, authors.
+
+    Keep in mind that, even if authors are highlighted, an index of posts by author is not generated, unlike the Archive and Category pages.
 
 For a fully developed blog on which this blog is modeled, see the [Material for MkDocs Blog](https://squidfunk.github.io/mkdocs-material/blog/){: target="_blank" }
 
