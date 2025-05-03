@@ -25,6 +25,7 @@ theme:
     - navigation.footer
     - navigation.indexes
     # - navigation.instant
+    # - navigation.instant.prefetch
     # - navigation.instant.progress
     - navigation.sections
     - navigation.tabs
@@ -156,9 +157,9 @@ nav:
           - Security architecture: biorhythm-platform/privacy-security/security-architecture.md
           - Threat assessment: biorhythm-platform/privacy-security/threat-assessment.md
           - Attack surface analysis: biorhythm-platform/privacy-security/attack-surface-analysis.md
-  - Library &boxbox;: https://phoenix-chronobiology.github.io/library/
+  - Library: https://phoenix-chronobiology.github.io/library/
   - Glossary: glossary/index.md
-  - Blog &boxbox;: https://phoenix-chronobiology.github.io/blog/
+  - Blog: https://phoenix-chronobiology.github.io/blog/
   - About the site:
       - About the site: about/index.md
       - Macros info: about/macros-info.md
