@@ -42,10 +42,13 @@ For full documentation, visit [mkdocs.org](https://www.mkdocs.org).
 mkdocs.yml              # The configuration file
 docs/
     index.md            # The documentation homepage
-    about/
+    about/              # about the site
         index.md
         ...
     abpm/               # ambulatory blood pressure monitor project
+        index.md
+        ...
+    algorithms/         # biorhythm analysis algorithms project
         index.md
         ...
     biorhythm-platform/ # biorhythm analysis platform project
@@ -53,21 +56,34 @@ docs/
         architecture/
             index.md
             ...
+        privacy-security/
+            index.md
+            ...
         requirements/
             index.md
             ...
+        images/
+        ...
+    glossary/
+        index.md
+        image/
     images/
     javascripts/
-    privacy-security/
-        index.md
-        ...
     snippets/
     stylesheets/
-    glossary.md
     ...                 # Other markdown pages and other files
 ```
 
-The ***Library*** and ***Blog*** components are built as external subsites.
+This structure breaks the site into the following components:
+
+* **ABPM**: ambulatory blood pressure monitor
+* **Algorithms**: biorhythm analysis algorithms
+* **Biorhythm Platform**: biorhythm analysis platform
+
+Not shown are two components built as external subsites:
+
+* **Library**:  [https://github.com/phoenix-chronobiology/library](https://github.com/phoenix-chronobiology/library)
+* **Blog**: [https://github.com/phoenix-chronobiology/blog](https://github.com/phoenix-chronobiology/blog)
 
 ### Theme
 
