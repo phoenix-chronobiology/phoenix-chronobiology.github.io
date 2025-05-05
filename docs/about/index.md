@@ -121,7 +121,7 @@ Math statements are rendered with the [LaTex](https://en.wikibooks.org/wiki/LaTe
 
 ## Reading Room
 
-The ***[Reading Room](../reading-room/)*** is constructed with the [blog plug-in built into Material for MkDocs](https://squidfunk.github.io/mkdocs-material/plugins/blog/){: target="_blank" }. The Blog plug-in uses Markdown front-matter to automatically create:
+The ***[Reading Room](../reading-room/)*** is constructed with the [*Blog* plug-in built into Material for MkDocs](https://squidfunk.github.io/mkdocs-material/plugins/blog/){: target="_blank" }. The Blog plug-in uses Markdown front-matter to automatically create:
 
 1. *Archive* pages that each list a subset of assets for a time interval.
 1. *Category* pages that each list a subset of assets for each category.
@@ -148,6 +148,8 @@ Catagories include but are not limited to:
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua.
     ```
+
+A given item can be assigned to multiple categories.
 
 Each manuscript particularly has a page that is written in Markdown and that serves as library index card. The card includes:
 
