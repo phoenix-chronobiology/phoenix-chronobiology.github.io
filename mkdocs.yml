@@ -68,6 +68,8 @@ theme:
   logo: images/phoenix-mark-white.png
 
 plugins:
+  - blog: 
+      blog_dir: reading-room
   - exclude:
       glob:
         - "*.drawio"
@@ -109,6 +111,7 @@ markdown_extensions:  # see https://squidfunk.github.io/mkdocs-material/setup/ex
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.blocks.caption
+  - pymdownx.blocks.details
   - pymdownx.blocks.tab:
       alternate_style: true
       combine_header_slug: true
@@ -156,9 +159,11 @@ nav:
           - Security architecture: biorhythm-platform/privacy-security/security-architecture.md
           - Threat assessment: biorhythm-platform/privacy-security/threat-assessment.md
           - Attack surface analysis: biorhythm-platform/privacy-security/attack-surface-analysis.md
-  - Library: https://phoenix-chronobiology.github.io/library/
+  - Reading Room:
+      - Reading Room: reading-room/index.md
+  # - Library: https://phoenix-chronobiology.github.io/library/
   - Glossary: glossary/index.md
-  - Blog: https://phoenix-chronobiology.github.io/blog/
+  # - Blog: https://phoenix-chronobiology.github.io/blog/
   - About the site:
       - About the site: about/index.md
       - Macros info: about/macros-info.md

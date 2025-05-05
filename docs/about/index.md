@@ -58,15 +58,16 @@ docs/
         images/         # glossary-specific images
     images/             # program-general images, icons and clip art     
     javascripts/
+    reading-room/
+        posts/          # blog posts & the equivalent of library catalog cards
+        files/          # locally archived knowledge assets
+        images/
+        index.md
+        .authors.yml
     snippets/
     stylesheets/
     ...                 # Other markdown pages and other files
 ```
-
-The project is linked to two subprojects:
-
-* blog
-* library
 
 ### Theme
 
@@ -118,14 +119,37 @@ The [hero image](../images/hero-heart.svg){: target="_blank" } on the site's hom
 
 Math statements are rendered with the [LaTex](https://en.wikibooks.org/wiki/LaTeX/Mathematics){: target="_blank" } typesetting language, using the [MathJax](https://squidfunk.github.io/mkdocs-material/reference/math/){: target="_blank" } library for displaying mathematical content in browsers. MathJax is incorporated into MkDocs using [arithmatex](https://facelessuser.github.io/pymdown-extensions/extensions/arithmatex/){: target="_blank" }, a Python Markdown extension.
 
-## Library
+## Reading Room
 
-The ***[Library](https://phoenix-chronobiology.github.io/library/)*** is built as a subsite, separate from this main site. This was done primarily so that the [blog plug-in built into Material for MkDocs](https://squidfunk.github.io/mkdocs-material/plugins/blog/){: target="_blank" } could be applied to both the **Library** and the **[Blog](#blog)** components. The Blog plug-in uses Markdown front-matter to automatically create:
+The ***[Reading Room](../reading-room/)*** is constructed with the [blog plug-in built into Material for MkDocs](https://squidfunk.github.io/mkdocs-material/plugins/blog/){: target="_blank" }. The Blog plug-in uses Markdown front-matter to automatically create:
 
 1. *Archive* pages that each list a subset of assets for a time interval.
 1. *Category* pages that each list a subset of assets for each category.
 
-Every item in the library has an article, written in Markdown, that serves as library index card. The card includes:
+Catagories include but are not limited to:
+
+1. Conferences
+1. Manuscripts
+1. Project Meetings
+1. Project Process
+
+!!! example "Sample from Project Meetings"
+    ``` markdown
+    ---
+    date:
+      created: 2024-04-24
+      updated: 2024-10-15
+    categories:
+      - Project Meetings
+    ---
+
+    # Welcome 2024!
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua.
+    ```
+
+Each manuscript particularly has a page that is written in Markdown and that serves as library index card. The card includes:
 
 1. The work's title.
 1. The work's authors.
@@ -141,50 +165,41 @@ The URLs usually point into this site's source GitHub repository. However, a car
 * [The GitHub repository for **Hyde**](https://github.com/phoenix-chronobiology/hyde){: target="_blank" }, the archive of The Phoenix Chronobiology Projects' legacy site; or
 * The home site of the project sponsor, the University of Minnesota's [Halberg Chronobiology Center, `https://halbergchronobiologycenter.umn.edu)`](https://halbergchronobiologycenter.umn.edu){: target="_blank" }.
 
+!!! example "Sample from Manuscripts"
+    ``` markdown
+    ---
+    title: "Paper Title Number 1"
+    date:
+      created: 2009-10-01
+      updated: 2024-10-15
+    categories:
+      - Manuscripts
+    citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+    paperurl: '../files/paper1.pdf'
+    slidesurl: '../files/slides1.pdf'
+    bibtexurl: '../files/bibtex1.bib'
+    ---
+    # {{ title }}
+    
+    ![prototype banner](../../images/prototype-color.png){ width="100" align="right" } 
+    
+    The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+    <!-- more -->
+    
+    /// details | :material-library: 
+        open: true
+    **Recommended citation**: {{ citation }}
+    
+    [Download Paper]({{ paperurl }}) | [Download Slides]({{ slidesurl }}) | [Download Bibtex]({{ bibtexurl }})
+    ///
+    ```
+
 This ability to reference sources outside the site is influenced by the activation of the [Privacy plug-in](#privacy).
 
 !!! bug "IDEA"
-    1. The project must decide whether to allow the assignment of a given asset to multiple categories rather than to just one.
     1. The project must decide whether to govern the list of categories to avoid redundant or misunderstood keywords.
     1. The plug-in can highlight the authors of each article. However, just as for the Blog, the project must still resolve details about author privacy. Keep in mind that, even if authors are highlighted, an index of posts by author is not generated, unlike the Archive and Category pages.
     1. The summary pages (*Archive*, *Category*) are similar to those implemented by [Academic Pages](https://github.com/academicpages/academicpages.github.io){: target="_blank" }. Because Academic Pages uses [Jekyll](https://jekyllrb.com/){: target="_blank" } rather than [MkDocs](https://www.mkdocs.org){: target="_blank" } for static site generation, the templates for Academic Pages would need converting from [Liquid](https://jekyllrb.com/docs/liquid/){: target="_blank" } to [Jinja](https://palletsprojects.com/projects/jinja/){: target="_blank" }. (The grammar and environments of Liquid and Jinja are similar, so the conversion would be straightforward.)
-
-## Blog
-
-The ***[Blog](https://phoenix-chronobiology.github.io/blog/)***, like the ***[Library](#library)***, is built as a subsite, separate from this main site.
-
-The Blog subsite uses the [blog plug-in built into Material for MkDocs](https://squidfunk.github.io/mkdocs-material/plugins/blog/){: target="_blank" }.
-
-Each blog entry is written in Markdown.
-
-The Blog plug-in uses Markdown front-matter to automatically create:
-
-1. *Archive* pages that each list a subset of assets for a time interval.
-1. *Category* pages that each list a subset of assets for each category.
-
-!!! example
-    ``` markdown
-
-    ---
-    date:
-      created: 2024-04-24
-      updated: 2024-10-15
-    categories:
-      - Meeting Minutes
-    ---
-
-    # Welcome 2024!
-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua.
-    ```
-
-!!! bug "IDEA"
-    The plug-in can highlight the authors of each post. However, the project must still resolve details about attribution to, and mediation of, authors.
-
-    Keep in mind that, even if authors are highlighted, an index of posts by author is not generated, unlike the Archive and Category pages.
-
-For a fully developed blog on which this blog is modeled, see the [Material for MkDocs Blog](https://squidfunk.github.io/mkdocs-material/blog/){: target="_blank" }
 
 ## Privacy
 
