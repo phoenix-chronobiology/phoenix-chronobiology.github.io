@@ -69,21 +69,16 @@ docs/
         image/
     images/
     javascripts/
+    reading-room/       # combined library and blog
+        posts/          # blog posts & the equivalent of library catalog cards
+        files/          # locally archived knowledge assets
+        images/
+        index.md
+        .authors.yml
     snippets/
     stylesheets/
     ...                 # Other markdown pages and other files
 ```
-
-This structure breaks the site into the following components:
-
-* **ABPM**: ambulatory blood pressure monitor
-* **Algorithms**: biorhythm analysis algorithms
-* **Biorhythm Platform**: biorhythm analysis platform
-
-Not shown are two components built as external subsites:
-
-* **Library**:  [https://github.com/phoenix-chronobiology/library](https://github.com/phoenix-chronobiology/library)
-* **Blog**: [https://github.com/phoenix-chronobiology/blog](https://github.com/phoenix-chronobiology/blog)
 
 ### Theme
 
