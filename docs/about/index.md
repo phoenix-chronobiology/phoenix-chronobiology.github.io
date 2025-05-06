@@ -121,7 +121,7 @@ Math statements are rendered with the [LaTex](https://en.wikibooks.org/wiki/LaTe
 
 ## Reading Room
 
-The ***[Reading Room](../reading-room/)*** is constructed with the [*Blog* plug-in built into Material for MkDocs](https://squidfunk.github.io/mkdocs-material/plugins/blog/){: target="_blank" }. The Blog plug-in uses Markdown front-matter to automatically create:
+The ***[Reading Room](../reading-room/index.md)*** is constructed with the [*Blog* plug-in built into Material for MkDocs](https://squidfunk.github.io/mkdocs-material/plugins/blog/){: target="_blank" }. The Blog plug-in uses Markdown front-matter to automatically create:
 
 1. *Archive* pages that each list a subset of assets for a time interval.
 1. *Category* pages that each list a subset of assets for each category.

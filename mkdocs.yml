@@ -161,9 +161,8 @@ nav:
           - Attack surface analysis: biorhythm-platform/privacy-security/attack-surface-analysis.md
   - Reading Room:
       - Reading Room: reading-room/index.md
-  # - Library: https://phoenix-chronobiology.github.io/library/
+      - Hyde (legacy archive) &boxbox;: https://phoenix-chronobiology.github.io/hyde/
   - Glossary: glossary/index.md
-  # - Blog: https://phoenix-chronobiology.github.io/blog/
   - About the site:
       - About the site: about/index.md
       - Macros info: about/macros-info.md
